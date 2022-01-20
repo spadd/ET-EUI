@@ -1,0 +1,5 @@
+# 打开cmd
+set path=D:\soft\android-ndk-r10e
+# 编译
+ndk-build NDK_PROJECT_PATH=. NDK_APPLICATION_MK=Application.mk
+# 没出错，在 libs文件夹下面
