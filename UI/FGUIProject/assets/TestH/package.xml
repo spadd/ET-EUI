@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="5jb64ecm">
+  <resources>
+    <component id="baih0" name="TestHUI.xml" path="/" exported="true"/>
+    <component id="baih2" name="InputA.xml" path="/comp/"/>
+    <component id="baih3" name="ButtonTitle.xml" path="/comp/"/>
+  </resources>
+  <publish name="" path="D:\workpaces\Unity\Chen-EUI\Unity\Assets\Bundles\FGUI" packageCount="2" codePath="D:\workpaces\Unity\Chen-EUI\Unity\Codes"/>
+</packageDescription>

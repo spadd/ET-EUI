@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="5hcuqm5o">
+  <resources>
+    <component id="mc2q0" name="TestMUI.xml" path="/" exported="true"/>
+    <component id="baih3" name="ProgressBar.xml" path="/comp/"/>
+  </resources>
+  <publish name="" path="D:\workpaces\Unity\Chen-EUI\Unity\Assets\Resources\FGUI" packageCount="2" genCode="true" codePath="D:\workpaces\Unity\Chen-EUI\Unity\Assets\Mono\Game\UI\FGUIGenCode"/>
+</packageDescription>
