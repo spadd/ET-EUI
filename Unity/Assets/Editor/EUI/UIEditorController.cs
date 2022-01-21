@@ -11,6 +11,8 @@ namespace ClientEditor
 {
     class UIEditorController
     {
+        public static string unity3dEx = ".unity3d";
+        
         [MenuItem("GameObject/SpawnEUICode", false, -2)]
         static public void CreateNewCode()
         {
@@ -21,7 +23,6 @@ namespace ClientEditor
         [MenuItem("Assets/AssetBundle/NameUIPrefab")]
         public static void NameAllUIPrefab()
         {
-            string suffix = ".unity3d";
             UnityEngine.Object[] selectAsset = Selection.GetFiltered<UnityEngine.Object>(SelectionMode.DeepAssets);
             for (int i = 0; i < selectAsset.Length; i++)
             {
@@ -31,10 +32,38 @@ namespace ClientEditor
                 {
                     Debug.Log(prefabName);
                     AssetImporter importer = AssetImporter.GetAtPath(prefabName);
-                    importer.assetBundleName = selectAsset[i].name.ToLower() + suffix;
+                    importer.assetBundleName = selectAsset[i].name.ToLower() + unity3dEx;
                 }
 
             }
+            AssetDatabase.Refresh();
+            AssetDatabase.RemoveUnusedAssetBundleNames();
+        }
+        
+        [MenuItem("Assets/AssetBundle/FguiABName")]
+        public static void SetSelectionFUIABName()
+        {
+            var gameObjects = Selection.objects;
+
+            foreach (var go in gameObjects)
+            {
+                AssetImporter assetImporter = AssetImporter.GetAtPath(AssetDatabase.GetAssetPath(go.GetInstanceID()));
+
+                if (go.name.Contains("fui"))
+                {
+                    assetImporter.assetBundleName = $"{go.name.ToLower()}{unity3dEx}";
+                }
+                else
+                {
+                    var texts = go.name.Split('_');
+
+                    if(texts != null && texts.Length > 0)
+                    {
+                        assetImporter.assetBundleName = $"{texts[0].ToLower()}{unity3dEx}";
+                    }
+                }
+            }
+            
             AssetDatabase.Refresh();
             AssetDatabase.RemoveUnusedAssetBundleNames();
         }

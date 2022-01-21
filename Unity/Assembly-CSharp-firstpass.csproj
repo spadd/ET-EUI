@@ -42,13 +42,13 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
-     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
-     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
-     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
      <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
-     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
-     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
      <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
      <None Include="Assets\Plugins\Sirenix\Assemblies\link.xml" />
      <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.xml" />
      <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.xml" />
@@ -271,26 +271,26 @@
      <Reference Include="UnityEditor.UnityConnectModule">
      <HintPath>D:/Soft/Unity/2020.3.18f1c1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
-     <Reference Include="CommandLine">
-     <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Assets/Plugins/CommandLine.dll</HintPath>
-     </Reference>
-     <Reference Include="ICSharpCode.SharpZipLib">
-     <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
-     </Reference>
-     <Reference Include="DOTween">
-     <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
-     </Reference>
      <Reference Include="Sirenix.OdinInspector.Editor">
      <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.OdinInspector.Attributes">
      <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
      </Reference>
+     <Reference Include="CommandLine">
+     <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Assets/Plugins/CommandLine.dll</HintPath>
+     </Reference>
      <Reference Include="Sirenix.Serialization.Config">
      <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
      </Reference>
+     <Reference Include="DOTween">
+     <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+     </Reference>
      <Reference Include="Sirenix.Utilities">
      <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
+     </Reference>
+     <Reference Include="ICSharpCode.SharpZipLib">
+     <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.Serialization">
      <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
@@ -676,6 +676,10 @@
       <Project>{5910fa29-5797-199c-985b-fc9fc473328e}</Project>
       <Name>Unity.Mono</Name>
     </ProjectReference>
+    <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.csproj">
+      <Project>{9f5687e3-5f72-c8f5-517b-584709b7d5d8}</Project>
+      <Name>Sirenix.OdinInspector.CompatibilityLayer</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Editor.csproj">
       <Project>{041131cd-3018-19b1-81b6-5dbee2467ffb}</Project>
       <Name>Unity.Editor</Name>
@@ -683,10 +687,6 @@
     <ProjectReference Include="Unity.ThirdParty.csproj">
       <Project>{d2ad5be1-263a-9a30-ab0f-dc5b08044350}</Project>
       <Name>Unity.ThirdParty</Name>
-    </ProjectReference>
-    <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.csproj">
-      <Project>{9f5687e3-5f72-c8f5-517b-584709b7d5d8}</Project>
-      <Name>Sirenix.OdinInspector.CompatibilityLayer</Name>
     </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj">
       <Project>{e0456168-1ba5-5e68-ef99-a1034c8b63ab}</Project>

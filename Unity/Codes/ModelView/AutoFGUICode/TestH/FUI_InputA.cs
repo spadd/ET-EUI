@@ -5,7 +5,7 @@ using FairyGUI.Utils;
 
 namespace ET
 {
-    public class FUI_InputA : Entity,IAwake<GObject>,IDestroy
+    public class FUI_InputA : Entity,IAwake,IAwake<GObject>,IDestroy
     {
         public const string UIPackageName = "TestH";
         public const string UIResName = "InputA";

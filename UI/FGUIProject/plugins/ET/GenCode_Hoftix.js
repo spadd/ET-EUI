@@ -51,7 +51,7 @@ function genHoftixCode(handler) {
         writer.writeln();
         writer.writeln('namespace ET');
         writer.startBlock();
-        writer.writeln('public class %s : Entity,IAwake<GObject>,IDestroy', genETCompName);
+        writer.writeln('public class %s : Entity,IAwake,IAwake<GObject>,IDestroy', genETCompName);
         writer.startBlock();
         // 包信息
         writer.writeln(`public const string UIPackageName = "${codePkgName}";
@@ -168,7 +168,17 @@ using FairyGUI.Utils;
 namespace ET
 {
     [ObjectSystem]
-    public class ${awakeSystemName} : AwakeSystem<${genETCompName},GObject>
+	public class ${awakeSystemName} : AwakeSystem<${genETCompName}>
+	{
+		public override void Awake(${genETCompName} self)
+		{
+			self.GObject = self.GetParent<FGUIBaseWindow>().UIPrefabGameObject;
+			self.uiTransform = self.GObject.asCom;
+		}
+	}
+
+    [ObjectSystem]
+    public class ${awakeSystemName}1 : AwakeSystem<${genETCompName},GObject>
     {
         public override void Awake(${genETCompName} self,GObject transform)
         {

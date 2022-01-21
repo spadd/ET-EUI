@@ -95,5 +95,11 @@ namespace ET
         public struct UnitEnterSightRange
         {
         }
+        
+        
+        public struct LoginFinishTest
+        {
+            public Scene ZoneScene;
+        }
     }
 }

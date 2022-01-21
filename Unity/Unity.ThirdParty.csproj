@@ -192,8 +192,8 @@
      <Compile Include="Assets\ThirdParty\protobuf-net\Serializers\CharSerializer.cs" />
      <Compile Include="Assets\ThirdParty\protobuf-net\Serializers\NullDecorator.cs" />
      <Compile Include="Assets\ThirdParty\ILRuntime\Runtime\Intepreter\RegisterVM\Optimizer.Utils.cs" />
-     <Compile Include="Assets\ThirdParty\ILRuntime\Mono.Cecil\Mono.Cecil\TypeReferenceEqualityComparer.cs" />
      <Compile Include="Assets\ThirdParty\protobuf-net\DiscriminatedUnion.cs" />
+     <Compile Include="Assets\ThirdParty\ILRuntime\Mono.Cecil\Mono.Cecil\TypeReferenceEqualityComparer.cs" />
      <Compile Include="Assets\ThirdParty\ILRuntime\Mono.Cecil\Mono.Cecil\CallSite.cs" />
      <Compile Include="Assets\ThirdParty\ILRuntime\Runtime\Intepreter\RegisterVM\CodeBasicBlock.cs" />
      <Compile Include="Assets\ThirdParty\ILRuntime\Runtime\Debugger\BreakpointInfo.cs" />
@@ -223,8 +223,8 @@
      <Compile Include="Assets\ThirdParty\ETTask\IAwaiter.cs" />
      <Compile Include="Assets\ThirdParty\ILRuntime\CLR\Method\ExceptionHandler.cs" />
      <Compile Include="Assets\ThirdParty\LitJson\Extensions.cs" />
-     <Compile Include="Assets\ThirdParty\ILRuntime\Mono.Cecil\Mono.Cecil.Cil\Document.cs" />
      <Compile Include="Assets\ThirdParty\ILRuntime\Reflection\ILRuntimePropertyInfo.cs" />
+     <Compile Include="Assets\ThirdParty\ILRuntime\Mono.Cecil\Mono.Cecil.Cil\Document.cs" />
      <Compile Include="Assets\ThirdParty\ILRuntime\Runtime\CLRBinding\ConstructorBindingGenerator.cs" />
      <Compile Include="Assets\ThirdParty\ILRuntime\Mono.Cecil\symbols\pdb\Microsoft.Cci.Pdb\IntHashTable.cs" />
      <Compile Include="Assets\ThirdParty\protobuf-net\Compiler\CompilerDelegates.cs" />
@@ -648,29 +648,29 @@
      <Reference Include="UnityEditor.WindowsStandalone.Extensions">
      <HintPath>D:/Soft/Unity/2020.3.18f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
      </Reference>
-     <Reference Include="CommandLine">
-     <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Assets/Plugins/CommandLine.dll</HintPath>
-     </Reference>
-     <Reference Include="ICSharpCode.SharpZipLib">
-     <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+     <Reference Include="Sirenix.OdinInspector.Editor">
+     <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
      </Reference>
      <Reference Include="DOTweenEditor">
      <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
      </Reference>
-     <Reference Include="DOTween">
-     <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
-     </Reference>
-     <Reference Include="Sirenix.OdinInspector.Editor">
-     <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Sirenix.OdinInspector.Attributes">
      <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
+     </Reference>
+     <Reference Include="CommandLine">
+     <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Assets/Plugins/CommandLine.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.Serialization.Config">
      <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
      </Reference>
+     <Reference Include="DOTween">
+     <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+     </Reference>
      <Reference Include="Sirenix.Utilities">
      <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
+     </Reference>
+     <Reference Include="ICSharpCode.SharpZipLib">
+     <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.Serialization">
      <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>

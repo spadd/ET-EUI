@@ -5,7 +5,17 @@ using FairyGUI.Utils;
 namespace ET
 {
     [ObjectSystem]
-    public class FUI_TestHUIAwakeSystem : AwakeSystem<FUI_TestHUI,GObject>
+	public class FUI_TestHUIAwakeSystem : AwakeSystem<FUI_TestHUI>
+	{
+		public override void Awake(FUI_TestHUI self)
+		{
+			self.GObject = self.GetParent<FGUIBaseWindow>().UIPrefabGameObject;
+			self.uiTransform = self.GObject.asCom;
+		}
+	}
+
+    [ObjectSystem]
+    public class FUI_TestHUIAwakeSystem1 : AwakeSystem<FUI_TestHUI,GObject>
     {
         public override void Awake(FUI_TestHUI self,GObject transform)
         {
