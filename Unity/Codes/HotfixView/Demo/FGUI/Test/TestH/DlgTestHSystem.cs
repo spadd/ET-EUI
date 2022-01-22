@@ -1,4 +1,6 @@
-﻿namespace ET
+﻿using System;
+
+namespace ET
 {
     [ObjectSystem]
     public class DlgTestHLoadSystem: LoadSystem<DlgTestH>
@@ -13,9 +15,9 @@
     {
         public static void RegisterUIEvent(this DlgTestH self)
         {
-            self.View.EGButton_login.AddListener(() =>
+            self.View.EGButton_login.AddListenerAsync(() =>
             {
-                self.OnLoginClick();
+                return self.OnLoginClick();
             });
 
             self.View.EGButton_register.AddListener(() =>
@@ -29,12 +31,32 @@
             self.View.EGTextField_tip.text = "设置内容试试";
         }
 
-        public static void OnLoginClick(this DlgTestH self)
+        public static async  ETTask OnLoginClick(this DlgTestH self)
         {
             string account = self.View.EFUI_InputA_account.EGTextInput_input.text;
             string password = self.View.EFUI_InputP_password.EGTextInput_input.text;
             Log.Info($"OnLoginClick account={account} password={password}");
-            Game.EventSystem.PublishAsync(new EventType.LoginFinishTest() {ZoneScene = self.DomainScene()}).Coroutine();
+
+            try
+            {
+                int errCode = await LoginHelper.Login(self.DomainScene(),
+                    ConstValue.LoginAddress,
+                    account,
+                    password);
+
+                self.SetTip(errCode);
+                if (errCode != ErrorCode.ERR_Success)
+                {
+                    Log.Error(errCode.ToString());
+                    return;
+                }
+                
+                // 显示登录之后的页面逻辑
+            }
+            catch (Exception e)
+            {
+                Log.Error(e.ToString());
+            }
         }
         public static void OnRegisterClick(this DlgTestH self)
         {
@@ -43,5 +65,42 @@
             Log.Info($"OnRegisterClick account={account} password={password}");
             Game.EventSystem.PublishAsync(new EventType.LoginFinishTest() {ZoneScene = self.DomainScene()}).Coroutine();
         }
+
+        public static void SetTip(this DlgTestH self,int errCode)
+        {
+            switch (@errCode)
+            {
+                case ErrorCode.ERR_LoginInfoIsNull:
+                    self.View.EGTextField_tip.text = "tips:账号或密码为空";
+                    break;
+                case ErrorCode.ERR_AccountNameFormError:
+                    self.View.EGTextField_tip.text = "tips:登录账号格式错误";
+                    break;
+                case ErrorCode.ERR_PasswordFormError:
+                    self.View.EGTextField_tip.text = "tips:登录密码格式错误";
+                    break;
+                case ErrorCode.ERR_AccountInBlackListError:
+                    self.View.EGTextField_tip.text = "tips:账号处于黑名单";
+                    break;
+                case ErrorCode.ERR_LoginPasswordError:
+                    self.View.EGTextField_tip.text = "tips:账号密码错误";
+                    break;
+                case ErrorCode.RequestRepeatedly:
+                    self.View.EGTextField_tip.text = "tips:请求重复";
+                    break;
+                case ErrorCode.ERR_NetWorkError:
+                    self.View.EGTextField_tip.text = "tips:网络错误";
+                    break;
+                case ErrorCode.ERR_Success:
+                    self.View.EGTextField_tip.text = "tips:登录成功";
+                    break;
+                default:
+                    self.View.EGTextField_tip.text = $"tips:未知错误 code = {errCode}！";
+                    break;
+            }
+            
+            
+        }
+
     }
 }

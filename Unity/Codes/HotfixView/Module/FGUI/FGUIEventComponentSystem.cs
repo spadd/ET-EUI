@@ -18,6 +18,7 @@ namespace ET
         public override void Destroy(FGUIEventComponent self)
         {
             self.UIEventHandlers.Clear();
+            self.isClicked = false;
             FGUIEventComponent.Instance = null;
         }
     }
@@ -43,5 +44,11 @@ namespace ET
             Log.Error($"windowId : {windowID} is not have any uiEvent");
             return null;
         }
+
+        public static void SetUIClicked(this FGUIEventComponent self,bool isClicked)
+        {
+            self.isClicked = isClicked;
+        }
+
     }
 }

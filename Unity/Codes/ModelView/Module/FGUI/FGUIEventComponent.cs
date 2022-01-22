@@ -6,5 +6,6 @@ namespace ET
     {
         public static FGUIEventComponent Instance { get; set; }
         public readonly Dictionary<string, IAFGUIEventHandler> UIEventHandlers = new Dictionary<string, IAFGUIEventHandler>();
+        public bool isClicked { get; set; }
     }
 }
