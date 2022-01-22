@@ -32,15 +32,15 @@ namespace ET
             self.GObject?.Dispose();
             self.GObject = null;
             self.uiTransform = null;
-			self.m_bg = null;
 			self.m_title = null;
-			self.m_tip = null;
 			self.m_account?.Dispose();
 			self.m_account = null;
 			self.m_password?.Dispose();
 			self.m_password = null;
 			self.m_register = null;
 			self.m_login = null;
+			self.m_tip = null;
+			self.m_version = null;
         }
     }
 }

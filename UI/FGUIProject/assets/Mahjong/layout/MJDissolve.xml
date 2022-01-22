@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720" bgColor="#000000">
+  <displayList>
+    <component id="n16_k5s1" name="n16" src="k5s1f2" fileName="layout/BlackView.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n1_x82h" name="n1" src="x82h6r" fileName="res/images/jiesan/WeChat_jiesanBg.png" xy="248,64">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n2_x82h" name="yes" src="c17ybk" fileName="comp/ButtonWehcatAgree.xml" xy="389,537"/>
+    <component id="n3_x82h" name="no" src="c17ybl" fileName="comp/ButtonWehcatCancel.xml" xy="671,537"/>
+    <image id="n5_c17y" name="n5" src="x82h6s" fileName="res/images/jiesan/WeChat_timeBg.png" xy="282,206" group="n6_c17y"/>
+    <text id="n4_x82h" name="text" xy="334,209" size="612,65" group="n6_c17y" fontSize="26" color="#2d7acb" align="center" vAlign="middle" autoSize="shrink" autoClearText="true" text="10:00 后解散房间"/>
+    <group id="n6_c17y" name="timer" xy="282,206" size="716,68"/>
+    <list id="n15_c17y" name="list" xy="300,297" size="680,201" layout="row" overflow="hidden" colGap="40" defaultItem="ui://wtxqw9t3c17ybm" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

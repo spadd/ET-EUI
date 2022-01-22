@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="160,78" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_x82h" name="n0" src="x82h26" fileName="res/images/club/WeChatKWX_tips_button_frame.png" xy="0,0" size="160,78">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_x82h" name="n1" src="x82h27" fileName="res/images/club/WeChatKWX_tips_button_frame2.png" xy="0,0" size="160,78">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_x82h" name="title" xy="0,0" size="160,78" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#a55b3e" strokeSize="2" singleLine="true" text="创建房间">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

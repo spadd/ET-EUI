@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <graph id="n1_k5s1" name="n1" xy="0,0" size="1280,720" type="rect" lineSize="20" lineColor="#ff15457b">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n0_k5s1" name="n0" src="x82h9z" fileName="res/images/rule/WCKWX_common_backBgUp.png" xy="0,0">
+      <relation target="" sidePair="center-center,top-top"/>
+    </image>
+    <component id="n2_k5s1" name="n2" src="k5s1fc" fileName="comp/Rules.xml" xy="170,90"/>
+    <component id="n4_k5s1" name="Close" src="k5s1fd" fileName="comp/Button/ButtonRuleClose.xml" xy="24,13"/>
+  </displayList>
+</component>

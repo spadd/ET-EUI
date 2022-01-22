@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="502,409">
+  <displayList>
+    <component id="n12_k5s1" name="Num1" src="k5s1f6" fileName="comp/ButtonJoinNum.xml" xy="5,0">
+      <Button title="1"/>
+    </component>
+    <component id="n13_k5s1" name="Num2" src="k5s1f6" fileName="comp/ButtonJoinNum.xml" xy="182,0">
+      <Button title="2"/>
+    </component>
+    <component id="n14_k5s1" name="Num3" src="k5s1f6" fileName="comp/ButtonJoinNum.xml" xy="359,0">
+      <Button title="3"/>
+    </component>
+    <component id="n15_k5s1" name="Num4" src="k5s1f6" fileName="comp/ButtonJoinNum.xml" xy="5,113">
+      <Button title="4"/>
+    </component>
+    <component id="n16_k5s1" name="Num5" src="k5s1f6" fileName="comp/ButtonJoinNum.xml" xy="182,113">
+      <Button title="5"/>
+    </component>
+    <component id="n17_k5s1" name="Num6" src="k5s1f6" fileName="comp/ButtonJoinNum.xml" xy="359,113">
+      <Button title="6"/>
+    </component>
+    <component id="n18_k5s1" name="Num7" src="k5s1f6" fileName="comp/ButtonJoinNum.xml" xy="5,226">
+      <Button title="7"/>
+    </component>
+    <component id="n19_k5s1" name="Num8" src="k5s1f6" fileName="comp/ButtonJoinNum.xml" xy="182,226">
+      <Button title="8"/>
+    </component>
+    <component id="n20_k5s1" name="Num9" src="k5s1f6" fileName="comp/ButtonJoinNum.xml" xy="359,226">
+      <Button title="9"/>
+    </component>
+    <component id="n22_k5s1" name="NumReset" src="k5s1f7" fileName="comp/ButtonJoinReset.xml" xy="0,330"/>
+    <component id="n23_k5s1" name="Num0" src="k5s1f6" fileName="comp/ButtonJoinNum.xml" xy="180,330">
+      <Button title="0"/>
+    </component>
+    <component id="n21_k5s1" name="NumDel" src="k5s1f8" fileName="comp/ButtonJoinDel.xml" xy="360,330"/>
+  </displayList>
+</component>

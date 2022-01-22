@@ -1,0 +1,29 @@
+{
+  "font": "",
+  "fontSize": 12,
+  "textColor": "#000000",
+  "fontAdjustment": false,
+  "colorScheme": [
+    "自定义颜色 #FF0000",
+    "颜色1 #85530D",
+    "颜色2 #4A4D6D",
+    "颜色3 #2D7ACB",
+    "选择1 #623210",
+    "选择2 #498DC4"
+  ],
+  "fontSizeScheme": [
+    "自定义字体大小 30"
+  ],
+  "fontScheme": [
+    "默认字体"
+  ],
+  "scrollBars": {
+    "horizontal": "",
+    "vertical": "",
+    "defaultDisplay": "visible"
+  },
+  "tipsRes": "",
+  "buttonClickSound": "",
+  "pivot": "default",
+  "fileName": "Common"
+}

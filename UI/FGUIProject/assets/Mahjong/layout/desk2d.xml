@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <image id="n0_x82h" name="background" src="x82h3c" fileName="res/images/desk/desk_background.jpg" xy="128,-152"/>
+    <image id="n1_x82h" name="frame" src="x82h3b" fileName="res/images/desk/deskFrame.png" xy="1186,-189" scale="0.735,0.73" rotation="90"/>
+    <image id="n2_x82h" name="center" src="x82h3q" fileName="res/images/desk/game_pic_center_hole.png" xy="608,328"/>
+    <image id="n3_x82h" name="base" src="x82h3k" fileName="res/images/desk/game_icon_fangwei.png" xy="558,279"/>
+    <image id="n5_x82h" name="dong" src="x82h3r" fileName="res/images/desk/game_pic_dongfeng.png" xy="570,384"/>
+    <image id="n4_x82h" name="bei" src="x82h3p" fileName="res/images/desk/game_pic_beifeng.png" xy="563,289"/>
+    <image id="n6_x82h" name="nan" src="x82h3s" fileName="res/images/desk/game_pic_nanfeng.png" xy="660,291"/>
+    <image id="n7_x82h" name="xi" src="x82h3t" fileName="res/images/desk/game_pic_xifeng.png" xy="570,287"/>
+  </displayList>
+</component>

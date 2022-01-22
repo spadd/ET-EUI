@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="875,41" overflow="hidden">
+  <displayList>
+    <image id="n16_k5s1" name="n16" src="x82h2t" fileName="res/images/common/setting_pic_dise.png" xy="285,0" pivot="0.5,0.5" scale="3.5,1"/>
+    <image id="n15_k5s1" name="n15" src="x82h2o" fileName="res/images/common/KWX_game_notice_laba.png" xy="0,9"/>
+    <text id="n17_k5s1" name="Msg" xy="42,3" size="436,34" fontSize="24" color="#ffffff" text="系统消息：健康游戏，禁止赌博健康游戏"/>
+  </displayList>
+</component>

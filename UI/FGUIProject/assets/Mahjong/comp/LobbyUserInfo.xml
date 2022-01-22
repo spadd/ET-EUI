@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="357,118">
+  <displayList>
+    <image id="n12_k5s1" name="n12" src="x82h8e" fileName="res/images/lobby/WeChatKWX_roomCard_small.png" xy="0,0"/>
+    <text id="n13_k5s1" name="Nickname" xy="122,13" size="214,49" fontSize="24" color="#ffffff" vAlign="middle" autoSize="ellipsis" autoClearText="true" text="我叫潘金莲"/>
+    <text id="n14_k5s1" name="UId" xy="122,69" size="147,33" fontSize="18" color="#ffffff" vAlign="middle" autoSize="ellipsis" autoClearText="true" text="ID: 88888888"/>
+  </displayList>
+</component>

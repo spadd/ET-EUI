@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="wtxqw9t3">
+  <resources>
+    <image id="x82h1" name="desk_ui_liangdao_tips.png" path="/res/desk_ui/"/>
+    <image id="x82h2" name="flag_kou.png" path="/res/desk_ui/"/>
+    <image id="x82h3" name="flag_ting.png" path="/res/desk_ui/"/>
+    <image id="x82h4" name="game_btn_pt_gang.png" path="/res/desk_ui/"/>
+    <image id="x82h5" name="game_btn_pt_guo.png" path="/res/desk_ui/"/>
+    <image id="x82h6" name="game_btn_pt_hu.png" path="/res/desk_ui/"/>
+    <image id="x82h7" name="game_btn_pt_liangdao.png" path="/res/desk_ui/"/>
+    <image id="x82h8" name="game_btn_pt_peng.png" path="/res/desk_ui/"/>
+    <image id="x82h9" name="game_btn_pt_quxiao.png" path="/res/desk_ui/"/>
+    <image id="x82ha" name="game_font_dingquezhong.png" path="/res/desk_ui/"/>
+    <image id="x82hb" name="game_font_zhunbeizhong.png" path="/res/desk_ui/"/>
+    <image id="x82hc" name="game_icon_wujiao.png" path="/res/desk_ui/"/>
+    <image id="x82hd" name="hukou_notify_hd.png" path="/res/desk_ui/"/>
+    <image id="x82he" name="koucard_notify_hd.png" path="/res/desk_ui/"/>
+    <font id="x82hf" name="simhei.ttf" path="/res/fonts/" renderMode="" samplePointSize="16"/>
+    <image id="x82hg" name="tiao_1.png" path="/res/huase/"/>
+    <image id="x82hh" name="tiao_2.png" path="/res/huase/"/>
+    <image id="x82hi" name="tiao_3.png" path="/res/huase/"/>
+    <image id="x82hj" name="tiao_4.png" path="/res/huase/"/>
+    <image id="x82hk" name="tiao_5.png" path="/res/huase/"/>
+    <image id="x82hl" name="tiao_6.png" path="/res/huase/"/>
+    <image id="x82hm" name="tiao_7.png" path="/res/huase/"/>
+    <image id="x82hn" name="tiao_8.png" path="/res/huase/"/>
+    <image id="x82ho" name="tiao_9.png" path="/res/huase/"/>
+    <image id="x82hp" name="tong_1.png" path="/res/huase/"/>
+    <image id="x82hq" name="tong_2.png" path="/res/huase/"/>
+    <image id="x82hr" name="tong_3.png" path="/res/huase/"/>
+    <image id="x82hs" name="tong_4.png" path="/res/huase/"/>
+    <image id="x82ht" name="tong_5.png" path="/res/huase/"/>
+    <image id="x82hu" name="tong_6.png" path="/res/huase/"/>
+    <image id="x82hv" name="tong_7.png" path="/res/huase/"/>
+    <image id="x82hw" name="tong_8.png" path="/res/huase/"/>
+    <image id="x82hx" name="tong_9.png" path="/res/huase/"/>
+    <image id="x82hy" name="wan_1.png" path="/res/huase/"/>
+    <image id="x82hz" name="wan_2.png" path="/res/huase/"/>
+    <image id="x82h10" name="wan_3.png" path="/res/huase/"/>
+    <image id="x82h11" name="wan_4.png" path="/res/huase/"/>
+    <image id="x82h12" name="wan_5.png" path="/res/huase/"/>
+    <image id="x82h13" name="wan_6.png" path="/res/huase/"/>
+    <image id="x82h14" name="wan_7.png" path="/res/huase/"/>
+    <image id="x82h15" name="wan_8.png" path="/res/huase/"/>
+    <image id="x82h16" name="wan_9.png" path="/res/huase/"/>
+    <image id="x82h17" name="alert_background.png" path="/res/images/alert/"/>
+    <image id="x82h18" name="cancel1.png" path="/res/images/alert/"/>
+    <image id="x82h19" name="cancel2.png" path="/res/images/alert/"/>
+    <image id="x82h1a" name="cancel3.png" path="/res/images/alert/"/>
+    <image id="x82h1b" name="confirm1.png" path="/res/images/alert/"/>
+    <image id="x82h1c" name="confirm2.png" path="/res/images/alert/"/>
+    <image id="x82h1d" name="confirm3.png" path="/res/images/alert/"/>
+    <image id="x82h1e" name="contact_background.png" path="/res/images/alert/"/>
+    <image id="x82h1f" name="KWX_setting_quit1.png" path="/res/images/alert/"/>
+    <image id="x82h1g" name="KWX_setting_quit2.png" path="/res/images/alert/"/>
+    <image id="x82h1h" name="KWX_setting_quit3.png" path="/res/images/alert/"/>
+    <image id="x82h1i" name="setting_close1.png" path="/res/images/alert/"/>
+    <image id="x82h1j" name="setting_close2.png" path="/res/images/alert/"/>
+    <image id="x82h1k" name="setting_close3.png" path="/res/images/alert/"/>
+    <image id="x82h1l" name="setting_switch_off.png" path="/res/images/alert/"/>
+    <image id="x82h1m" name="setting_switch_on.png" path="/res/images/alert/"/>
+    <image id="x82h1n" name="setting_title.png" path="/res/images/alert/"/>
+    <image id="x82h1o" name="tips_background.png" path="/res/images/alert/"/>
+    <image id="x82h1p" name="wechat_prompt_background.png" path="/res/images/alert/"/>
+    <image id="x82h1q" name="wechat_prompt_tips.png" path="/res/images/alert/"/>
+    <image id="x82h1r" name="wechat_share_background.png" path="/res/images/alert/"/>
+    <image id="x82h1s" name="wechat_share_circle.png" path="/res/images/alert/"/>
+    <image id="x82h1t" name="wechat_share_friend.png" path="/res/images/alert/"/>
+    <image id="x82h1u" name="background.png" path="/res/images/background/"/>
+    <image id="x82h1v" name="login_background.png" path="/res/images/background/"/>
+    <image id="x82h1w" name="scene_background.jpg" path="/res/images/background/"/>
+    <image id="x82h1x" name="apply1.png" path="/res/images/club/"/>
+    <image id="x82h1y" name="apply2.png" path="/res/images/club/"/>
+    <image id="x82h1z" name="background.png" path="/res/images/club/"/>
+    <image id="x82h20" name="confirm1.png" path="/res/images/club/"/>
+    <image id="x82h21" name="confirm2.png" path="/res/images/club/"/>
+    <image id="x82h22" name="hs_cell.png" path="/res/images/club/"/>
+    <image id="x82h23" name="hs_nullhistory.png" path="/res/images/club/"/>
+    <image id="x82h24" name="JoinClubGame_tittle.png" path="/res/images/club/"/>
+    <image id="x82h25" name="LB_Home.png" path="/res/images/club/"/>
+    <image id="x82h26" name="WeChatKWX_tips_button_frame.png" path="/res/images/club/" scale="9grid" scale9grid="35,19,70,38"/>
+    <image id="x82h27" name="WeChatKWX_tips_button_frame2.png" path="/res/images/club/" scale="9grid" scale9grid="35,19,70,38"/>
+    <image id="x82h28" name="common_feame01.png.png" path="/res/images/common/"/>
+    <image id="x82h29" name="common_icon_fanhui_gl.png" path="/res/images/common/"/>
+    <image id="x82h2a" name="common_icon_fanhui_pt.png" path="/res/images/common/"/>
+    <image id="x82h2b" name="common_icon_shezhi_gl.png" path="/res/images/common/"/>
+    <image id="x82h2c" name="common_icon_shezhi_pt.png" path="/res/images/common/"/>
+    <image id="x82h2d" name="common_pic_heikuang02.png" path="/res/images/common/"/>
+    <image id="x82h2e" name="common_wait.png.png" path="/res/images/common/"/>
+    <image id="x82h2f" name="copy1.png" path="/res/images/common/"/>
+    <image id="x82h2g" name="copy2.png" path="/res/images/common/"/>
+    <image id="x82h2h" name="copy3.png" path="/res/images/common/"/>
+    <image id="x82h2i" name="KWX_FenXiang0.png" path="/res/images/common/"/>
+    <image id="x82h2j" name="KWX_FenXiang1.png" path="/res/images/common/"/>
+    <image id="x82h2k" name="KWX_FenXiang2.png" path="/res/images/common/"/>
+    <image id="x82h2l" name="KWX_FenXiangQuan0.png" path="/res/images/common/"/>
+    <image id="x82h2m" name="KWX_FenXiangQuan1.png" path="/res/images/common/"/>
+    <image id="x82h2n" name="KWX_FenXiangQuan2.png" path="/res/images/common/"/>
+    <image id="x82h2o" name="KWX_game_notice_laba.png" path="/res/images/common/"/>
+    <image id="x82h2p" name="KWX_LingFangKaBtn.png" path="/res/images/common/"/>
+    <image id="x82h2q" name="KWX_Lobby_setting1.png" path="/res/images/common/"/>
+    <image id="x82h2r" name="KWX_Lobby_setting2.png" path="/res/images/common/"/>
+    <image id="x82h2s" name="logo.png" path="/res/images/common/"/>
+    <image id="x82h2t" name="setting_pic_dise.png" path="/res/images/common/"/>
+    <image id="x82h2u" name="user_frame_touxiangkuang.png" path="/res/images/common/" scale="9grid" scale9grid="73,73,146,146"/>
+    <image id="x82h2v" name="voice_chat_icon.png" path="/res/images/common/"/>
+    <image id="x82h2w" name="WeChatKWX_ShareBtn1.png" path="/res/images/common/"/>
+    <image id="x82h2x" name="WeChatKWX_ShareBtn2.png" path="/res/images/common/"/>
+    <image id="x82h2y" name="WeChatKWX_UserFaceBg.png" path="/res/images/common/"/>
+    <image id="x82h2z" name="WeChat_HeadBg.png" path="/res/images/common/"/>
+    <image id="x82h30" name="create1.png" path="/res/images/create/"/>
+    <image id="x82h31" name="create2.png" path="/res/images/create/"/>
+    <image id="x82h32" name="create3.png" path="/res/images/create/"/>
+    <image id="x82h33" name="create_Label_8_1.png" path="/res/images/create/"/>
+    <image id="x82h34" name="create_Label_8_2.png" path="/res/images/create/"/>
+    <image id="x82h35" name="create_Label_8_3.png" path="/res/images/create/"/>
+    <image id="x82h36" name="create_room_background.png" path="/res/images/create/"/>
+    <image id="x82h37" name="select_box1.png" path="/res/images/create/" scale9grid="0,0,-102,0"/>
+    <image id="x82h38" name="select_box2.png" path="/res/images/create/" scale9grid="0,0,-102,0"/>
+    <image id="x82h39" name="select_box3.png" path="/res/images/create/" scale9grid="0,0,-102,0"/>
+    <image id="x82h3a" name="select_box4.png" path="/res/images/create/" scale9grid="0,0,-102,0"/>
+    <image id="x82h3b" name="deskFrame.png" path="/res/images/desk/"/>
+    <image id="x82h3c" name="desk_background.jpg" path="/res/images/desk/"/>
+    <image id="x82h3d" name="empty_battery.png" path="/res/images/desk/"/>
+    <image id="x82h3e" name="game_btn_pt_hong.png" path="/res/images/desk/"/>
+    <image id="x82h3f" name="game_btn_pt_huang.png" path="/res/images/desk/"/>
+    <image id="x82h3g" name="game_btn_pt_lv.png" path="/res/images/desk/"/>
+    <image id="x82h3h" name="game_font_dingquezhong.png" path="/res/images/desk/"/>
+    <image id="x82h3i" name="game_font_zhunbeizhong.png" path="/res/images/desk/"/>
+    <image id="x82h3j" name="game_frame_xiaoyuan.png" path="/res/images/desk/"/>
+    <image id="x82h3k" name="game_icon_fangwei.png" path="/res/images/desk/"/>
+    <image id="x82h3l" name="game_icon_jiantou.png" path="/res/images/desk/"/>
+    <image id="x82h3m" name="game_icon_tiao.png" path="/res/images/desk/"/>
+    <image id="x82h3n" name="game_icon_tong.png" path="/res/images/desk/"/>
+    <image id="x82h3o" name="game_icon_wan.png" path="/res/images/desk/"/>
+    <image id="x82h3p" name="game_pic_beifeng.png" path="/res/images/desk/"/>
+    <image id="x82h3q" name="game_pic_center_hole.png" path="/res/images/desk/"/>
+    <image id="x82h3r" name="game_pic_dongfeng.png" path="/res/images/desk/"/>
+    <image id="x82h3s" name="game_pic_nanfeng.png" path="/res/images/desk/"/>
+    <image id="x82h3t" name="game_pic_xifeng.png" path="/res/images/desk/"/>
+    <image id="x82h3u" name="head_frame.png" path="/res/images/desk/"/>
+    <image id="x82h3v" name="KWX_chat1.png" path="/res/images/desk/"/>
+    <image id="x82h3w" name="KWX_chat2.png" path="/res/images/desk/"/>
+    <image id="x82h3x" name="KWX_chat3.png" path="/res/images/desk/"/>
+    <image id="x82h3y" name="KWX_chat_message_bg.png" path="/res/images/desk/" scale="9grid" scale9grid="79,21,158,42"/>
+    <image id="x82h3z" name="KWX_gameEnd_maima_frame.png" path="/res/images/desk/"/>
+    <image id="x82h40" name="KWX_gameEnd_maima_title1.png" path="/res/images/desk/"/>
+    <image id="x82h41" name="KWX_gameEnd_maima_title2.png" path="/res/images/desk/"/>
+    <image id="x82h42" name="KWX_head_audio_microphone.png" path="/res/images/desk/"/>
+    <image id="x82h43" name="KWX_hukou_erro-hd.png" path="/res/images/desk/"/>
+    <image id="x82h44" name="KWX_hukou_notify-hd.png" path="/res/images/desk/"/>
+    <image id="x82h45" name="KWX_selectgang_icon-hd.png" path="/res/images/desk/"/>
+    <image id="x82h46" name="KWX_waitting.png" path="/res/images/desk/"/>
+    <image id="x82h47" name="login_frame_shurukuang.png" path="/res/images/desk/"/>
+    <image id="x82h48" name="majiang_1.png" path="/res/images/desk/"/>
+    <image id="x82h49" name="majiang_2.png" path="/res/images/desk/"/>
+    <image id="x82h4a" name="result_icon_majiangbeimian01.png" path="/res/images/desk/"/>
+    <image id="x82h4b" name="result_pic_mengban.png" path="/res/images/desk/"/>
+    <image id="x82h4c" name="voice_chat_icon.png" path="/res/images/desk/"/>
+    <image id="x82h4d" name="voice_chat_record_btn.png" path="/res/images/desk/"/>
+    <image id="x82h4e" name="vt_bg.png" path="/res/images/desk/"/>
+    <image id="x82h4f" name="WeChatKWX_dissolve_button1.png" path="/res/images/desk/"/>
+    <image id="x82h4g" name="WeChatKWX_dissolve_button2.png" path="/res/images/desk/"/>
+    <image id="x82h4h" name="WeChatKWX_dissolve_button3.png" path="/res/images/desk/"/>
+    <image id="x82h4i" name="WeChatKWX_invite_button1.png" path="/res/images/desk/"/>
+    <image id="x82h4j" name="WeChatKWX_invite_button2.png" path="/res/images/desk/"/>
+    <image id="x82h4k" name="WeChatKWX_invite_button3.png" path="/res/images/desk/"/>
+    <image id="x82h4l" name="WeChatKWX_Zhuang.png" path="/res/images/desk/"/>
+    <image id="x82h4m" name="zhuang.png" path="/res/images/desk/"/>
+    <image id="x82h65" name="hs_bg.png" path="/res/images/history/"/>
+    <image id="x82h66" name="hs_btn_back.png" path="/res/images/history/"/>
+    <image id="x82h67" name="hs_btn_detail.png" path="/res/images/history/"/>
+    <image id="x82h68" name="hs_cell.png" path="/res/images/history/"/>
+    <image id="x82h69" name="hs_nullhistory.png" path="/res/images/history/"/>
+    <image id="x82h6a" name="hs_title.png" path="/res/images/history/"/>
+    <image id="x82h6b" name="juxing.png" path="/res/images/history/"/>
+    <image id="x82h6c" name="scoredetail_bg2.png" path="/res/images/history/"/>
+    <image id="x82h6d" name="scoredetail_cell1.jpg" path="/res/images/history/"/>
+    <image id="x82h6e" name="scoredetail_info_bg.png" path="/res/images/history/"/>
+    <image id="x82h6f" name="scoredetail_title.png" path="/res/images/history/"/>
+    <image id="x82h6g" name="WeChatKWX_playback_button.png" path="/res/images/history/"/>
+    <image id="x82h6h" name="WeChatKWX_shareScore_button.png" path="/res/images/history/"/>
+    <image id="x82h6i" name="KWX_waitting.png" path="/res/images/jiesan/"/>
+    <image id="x82h6j" name="WeChatKWX_SettingBtn2.png" path="/res/images/jiesan/"/>
+    <image id="x82h6k" name="WeChat_Agreed0.png" path="/res/images/jiesan/"/>
+    <image id="x82h6l" name="WeChat_Agreed1.png" path="/res/images/jiesan/"/>
+    <image id="x82h6m" name="WeChat_Agreed2.png" path="/res/images/jiesan/"/>
+    <image id="x82h6n" name="WeChat_Cancel0.png" path="/res/images/jiesan/"/>
+    <image id="x82h6o" name="WeChat_Cancel1.png" path="/res/images/jiesan/"/>
+    <image id="x82h6p" name="WeChat_Cancel2.png" path="/res/images/jiesan/"/>
+    <image id="x82h6q" name="WeChat_HeadBg.png" path="/res/images/jiesan/"/>
+    <image id="x82h6r" name="WeChat_jiesanBg.png" path="/res/images/jiesan/"/>
+    <image id="x82h6s" name="WeChat_timeBg.png" path="/res/images/jiesan/"/>
+    <image id="x82h6t" name="JoinGame_bg.png" path="/res/images/join/"/>
+    <image id="x82h6u" name="JoinGame_bg2.png" path="/res/images/join/"/>
+    <image id="x82h6v" name="JoinGame_tittle.png" path="/res/images/join/"/>
+    <image id="x82h6w" name="joinRoomfnt.png" path="/res/images/join/"/>
+    <image id="x82h6x" name="Join_num_Bg.png" path="/res/images/join/"/>
+    <image id="x82h6y" name="RestBtn1.png" path="/res/images/join/"/>
+    <image id="x82h6z" name="RestBtn2.png" path="/res/images/join/"/>
+    <image id="x82h70" name="RestBtn3.png" path="/res/images/jiesan/"/>
+    <image id="x82h71" name="tips_button_frame.png" path="/res/images/join/"/>
+    <image id="x82h72" name="tips_button_frame2.png" path="/res/images/join/"/>
+    <image id="x82h73" name="tips_button_frame3.png" path="/res/images/join/"/>
+    <image id="x82h74" name="tips_delete_button.png" path="/res/images/join/"/>
+    <image id="x82h75" name="tips_delete_button2.png" path="/res/images/join/"/>
+    <image id="x82h76" name="tips_delete_button3.png" path="/res/images/join/"/>
+    <image id="x82h77" name="1-1.png" path="/res/images/loading/"/>
+    <image id="x82h78" name="1-2.png" path="/res/images/loading/"/>
+    <image id="x82h79" name="1-3.png" path="/res/images/loading/"/>
+    <image id="x82h7a" name="1-4.png" path="/res/images/loading/"/>
+    <image id="x82h7b" name="2-1.png" path="/res/images/loading/"/>
+    <image id="x82h7c" name="2-2.png" path="/res/images/loading/"/>
+    <image id="x82h7d" name="2-3.png" path="/res/images/loading/"/>
+    <image id="x82h7e" name="2-4.png" path="/res/images/loading/"/>
+    <image id="x82h7f" name="3-1.png" path="/res/images/loading/"/>
+    <image id="x82h7g" name="3-2.png" path="/res/images/loading/"/>
+    <image id="x82h7h" name="3-3.png" path="/res/images/loading/"/>
+    <image id="x82h7i" name="3-4.png" path="/res/images/loading/"/>
+    <image id="x82h7j" name="4-1.png" path="/res/images/loading/"/>
+    <image id="x82h7k" name="4-2.png" path="/res/images/loading/"/>
+    <image id="x82h7l" name="4-3.png" path="/res/images/loading/"/>
+    <image id="x82h7m" name="4-4.png" path="/res/images/loading/"/>
+    <image id="x82h7n" name="5-1.png" path="/res/images/loading/"/>
+    <image id="x82h7o" name="5-2.png" path="/res/images/loading/"/>
+    <image id="x82h7p" name="5-3.png" path="/res/images/loading/"/>
+    <image id="x82h7q" name="5-4.png" path="/res/images/loading/"/>
+    <image id="x82h7r" name="6-1.png" path="/res/images/loading/"/>
+    <image id="x82h7s" name="6-2.png" path="/res/images/loading/"/>
+    <image id="x82h7t" name="6-3.png" path="/res/images/loading/"/>
+    <image id="x82h7u" name="6-4.png" path="/res/images/loading/"/>
+    <image id="x82h7v" name="common_laoding_02.png.png" path="/res/images/loading/"/>
+    <image id="x82h7w" name="common_laoding_03.png.png" path="/res/images/loading/"/>
+    <image id="x82h7x" name="lobbybackground.png" path="/res/images/lobby/"/>
+    <image id="x82h7y" name="button_buy_room_card.png" path="/res/images/lobby/"/>
+    <image id="x82h7z" name="button_buy_room_card2.png" path="/res/images/lobby/"/>
+    <image id="x82h80" name="create_room.png" path="/res/images/lobby/"/>
+    <image id="x82h81" name="create_room2.png" path="/res/images/lobby/"/>
+    <image id="x82h82" name="fangka.png" path="/res/images/lobby/"/>
+    <image id="x82h83" name="history.png" path="/res/images/lobby/"/>
+    <image id="x82h84" name="history2.png" path="/res/images/lobby/"/>
+    <image id="x82h85" name="join_room.png" path="/res/images/lobby/"/>
+    <image id="x82h86" name="join_room2.png" path="/res/images/lobby/"/>
+    <image id="x82h87" name="logo.png" path="/res/images/lobby/"/>
+    <image id="x82h88" name="people.png" path="/res/images/lobby/"/>
+    <image id="x82h89" name="rule.png" path="/res/images/lobby/"/>
+    <image id="x82h8a" name="rule2.png" path="/res/images/lobby/"/>
+    <image id="x82h8b" name="user_pic_xiugaitouxiang.png" path="/res/images/lobby/"/>
+    <image id="x82h8c" name="WeChatKWX_add_button.png" path="/res/images/lobby/"/>
+    <image id="x82h8d" name="WeChatKWX_add_button2.png" path="/res/images/lobby/"/>
+    <image id="x82h8e" name="WeChatKWX_roomCard_small.png" path="/res/images/lobby/"/>
+    <image id="x82h8f" name="agree1.png" path="/res/images/login/"/>
+    <image id="x82h8g" name="agree2.png" path="/res/images/login/"/>
+    <image id="x82h8h" name="agree3.png" path="/res/images/login/"/>
+    <image id="x82h8i" name="agreement1.png" path="/res/images/login/"/>
+    <image id="x82h8j" name="agreement2.png" path="/res/images/login/"/>
+    <image id="x82h8k" name="agreement_background.png" path="/res/images/login/"/>
+    <image id="x82h8l" name="agreement_title.png" path="/res/images/login/"/>
+    <image id="x82h8m" name="background.png" path="/res/images/login/"/>
+    <image id="x82h8n" name="box1.png" path="/res/images/login/" scale9grid="0,0,-54,-34"/>
+    <image id="x82h8o" name="box2.png" path="/res/images/login/" scale9grid="0,0,-54,-33"/>
+    <image id="x82h8p" name="comfirm3.png" path="/res/images/login/"/>
+    <image id="x82h8q" name="confirm1.png" path="/res/images/login/"/>
+    <image id="x82h8r" name="confirm2.png" path="/res/images/login/"/>
+    <image id="x82h8s" name="loading.png" path="/res/images/login/"/>
+    <image id="x82h8t" name="login_icon_gengxin.png" path="/res/images/login/"/>
+    <image id="x82h8u" name="login_pic_gengxin.png" path="/res/images/login/"/>
+    <image id="x82h8v" name="mianze.png" path="/res/images/login/"/>
+    <image id="x82h8w" name="wechat1.png" path="/res/images/login/"/>
+    <image id="x82h8x" name="wechat2.png" path="/res/images/login/"/>
+    <image id="x82h8y" name="weixuanzhong.png" path="/res/images/login/"/>
+    <image id="x82h8z" name="xuanzhong.png" path="/res/images/login/"/>
+    <image id="x82h90" name="result_bg02.png" path="/res/images/over/"/>
+    <image id="x82h91" name="round_over_share1.png" path="/res/images/over/"/>
+    <image id="x82h92" name="round_over_share2.png" path="/res/images/over/"/>
+    <image id="x82h93" name="round_over_share3.png" path="/res/images/over/"/>
+    <image id="x82h94" name="round_over_start1.png" path="/res/images/over/"/>
+    <image id="x82h95" name="round_over_start2.png" path="/res/images/over/"/>
+    <image id="x82h96" name="round_over_start3.png" path="/res/images/over/"/>
+    <image id="x82h97" name="title_draw.png" path="/res/images/over/"/>
+    <image id="x82h98" name="title_lost.png" path="/res/images/over/"/>
+    <image id="x82h99" name="title_win.png" path="/res/images/over/"/>
+    <image id="x82h9a" name="WeChatKWX_back_button.png" path="/res/images/over/"/>
+    <image id="x82h9b" name="WeChatKWX_back_button1.png" path="/res/images/over/"/>
+    <image id="x82h9c" name="WeChatKWX_back_button2.png" path="/res/images/over/"/>
+    <image id="x82h9d" name="WeChatKWX_chating.png" path="/res/images/over/"/>
+    <image id="x82h9e" name="WeChatKWX_dianpao_font.png" path="/res/images/over/"/>
+    <image id="x82h9f" name="WeChatKWX_goodWinPlayer.png" path="/res/images/over/"/>
+    <image id="x82h9g" name="WeChatKWX_Hu_font.png" path="/res/images/over/"/>
+    <image id="x82h9h" name="WeChatKWX_paowang.png" path="/res/images/over/"/>
+    <image id="x82h9i" name="WeChatKWX_share_button1.png" path="/res/images/over/"/>
+    <image id="x82h9j" name="WeChatKWX_share_button2.png" path="/res/images/over/"/>
+    <image id="x82h9k" name="WeChatKWX_share_button3.png" path="/res/images/over/"/>
+    <image id="x82h9l" name="WeChatKWX_SingleEndZiMo.png" path="/res/images/over/"/>
+    <image id="x82h9m" name="WeChatKWX_SingleEnd_bg.png" path="/res/images/over/"/>
+    <image id="x82h9n" name="WeChatKWX_UserBG.png" path="/res/images/over/"/>
+    <image id="x82h9o" name="xuanzhong-2.png" path="/res/images/over/"/>
+    <image id="x82h9p" name="xuanzhong.png" path="/res/images/over/"/>
+    <image id="x82h9q" name="f0.png" path="/res/images/rule/"/>
+    <image id="x82h9r" name="f1.png" path="/res/images/rule/"/>
+    <image id="x82h9s" name="f2.png" path="/res/images/rule/"/>
+    <image id="x82h9t" name="f3.png" path="/res/images/rule/"/>
+    <image id="x82h9u" name="f4.png" path="/res/images/rule/"/>
+    <image id="x82h9v" name="f5.png" path="/res/images/rule/"/>
+    <image id="x82h9w" name="f6.png" path="/res/images/rule/"/>
+    <image id="x82h9x" name="f7.png" path="/res/images/rule/"/>
+    <image id="x82h9y" name="scoredetail_btn_back.png" path="/res/images/rule/"/>
+    <image id="x82h9z" name="WCKWX_common_backBgUp.png" path="/res/images/rule/"/>
+    <image id="x82ha0" name="WCKWX_common_background.png" path="/res/images/rule/"/>
+    <image id="x82ha1" name="dice.png" path="/res/model/"/>
+    <image id="x82ha2" name="majong_1.jpg" path="/res/model/"/>
+    <image id="x82ha3" name="majong_2.jpg" path="/res/model/"/>
+    <image id="x82ha4" name="tiao_1.png" path="/res/model/"/>
+    <image id="x82ha5" name="cellular_0.png" path="/res/signal/"/>
+    <image id="x82ha6" name="cellular_1.png" path="/res/signal/"/>
+    <image id="x82ha7" name="cellular_2.png" path="/res/signal/"/>
+    <image id="x82ha8" name="cellular_3.png" path="/res/signal/"/>
+    <image id="x82ha9" name="cellular_4.png" path="/res/signal/"/>
+    <image id="x82haa" name="wifi_0.png" path="/res/signal/"/>
+    <image id="x82hab" name="wifi_1.png" path="/res/signal/"/>
+    <image id="x82hac" name="wifi_2.png" path="/res/signal/"/>
+    <image id="x82had" name="wifi_3.png" path="/res/signal/"/>
+    <image id="x82hae" name="wifi_4.png" path="/res/signal/"/>
+    <image id="x82haf" name="intputHint.png" path="/res/"/>
+    <component id="x82hag" name="MJLogin.xml" path="/layout/"/>
+    <component id="x82haj" name="ButtonWehcat.xml" path="/comp/Button/"/>
+    <component id="x82hak" name="ButtonComfirm.xml" path="/comp/Button/"/>
+    <component id="x82hal" name="ButtonAgree.xml" path="/comp/Button/"/>
+    <component id="x82ham" name="Toggle1.xml" path="/comp/"/>
+    <component id="x82han" name="Toggle2.xml" path="/comp/"/>
+    <component id="x82hap" name="MJAgreement.xml" path="/layout/"/>
+    <component id="x82haq" name="AgreementLabel.xml" path="/comp/"/>
+    <component id="x82har" name="MJAlert.xml" path="/layout/" exported="true"/>
+    <component id="x82has" name="ButtonComfirmBox.xml" path="/comp/Button/"/>
+    <component id="x82hat" name="ButtonCancelBox.xml" path="/comp/Button/"/>
+    <component id="x82hau" name="ButtonSettingQuit.xml" path="/comp/Button/"/>
+    <component id="x82hav" name="ButtonSettingClose.xml" path="/comp/Button/"/>
+    <component id="x82haw" name="ToggleSetting.xml" path="/comp/"/>
+    <component id="x82hax" name="MJClub.xml" path="/layout/" exported="true"/>
+    <component id="x82hay" name="ButtonApplyBox.xml" path="/comp/Button/"/>
+    <component id="x82haz" name="MJClubItem.xml" path="/layout/" exported="true"/>
+    <component id="x82hb0" name="ButtonCreateRoom.xml" path="/comp/Button/"/>
+    <component id="x82hb2" name="MJCreateRoom.xml" path="/layout/" exported="true"/>
+    <component id="x82hb3" name="ButtonCreateRoom2.xml" path="/comp/Button/"/>
+    <component id="x82hb4" name="ToggleSelect1.xml" path="/comp/"/>
+    <component id="x82hb5" name="ToggleSelectt2.xml" path="/comp/"/>
+    <component id="x82hb6" name="MJDeskHead.xml" path="/layout/" exported="true"/>
+    <component id="x82hb7" name="ButtonHead.xml" path="/comp/Button/"/>
+    <component id="x82hb8" name="desk2d.xml" path="/layout/"/>
+    <component id="x82hb9" name="MJDesk.xml" path="/layout/" exported="true"/>
+    <component id="x82hba" name="ButtonCommSet.xml" path="/comp/Button/"/>
+    <component id="x82hbb" name="ButtonCommFanHui.xml" path="/comp/Button/"/>
+    <component id="x82hbc" name="ButtonCommVoice.xml" path="/comp/Button/"/>
+    <component id="x82hbd" name="ButtonCommVoiceMessage.xml" path="/comp/Button/"/>
+    <component id="x82hbe" name="ButtonCommCopy.xml" path="/comp/Button/"/>
+    <component id="x82hbf" name="ButtonCommInvited.xml" path="/comp/Button/"/>
+    <component id="x82hbg" name="WiFi.xml" path="/comp/"/>
+    <component id="x82hbh" name="DelayLabel.xml" path="/comp/"/>
+    <component id="c17ybj" name="MJDissolve.xml" path="/layout/" exported="true"/>
+    <component id="c17ybk" name="ButtonWehcatAgree.xml" path="/comp/Button/"/>
+    <component id="c17ybl" name="ButtonWehcatCancel.xml" path="/comp/Button/"/>
+    <component id="c17ybm" name="MJDissolveHead.xml" path="/layout/" exported="true"/>
+    <component id="c17ybn" name="MJGameEnd.xml" path="/layout/" exported="true"/>
+    <component id="c17ybo" name="ButtonOverBack.xml" path="/comp/Button/"/>
+    <component id="c17ybp" name="ButtonOverShare.xml" path="/comp/Button/"/>
+    <component id="c17ybq" name="MJGameItem.xml" path="/layout/" exported="true"/>
+    <component id="eu5bbr" name="MJLobby.xml" path="/layout/" exported="true"/>
+    <component id="eu5bbs" name="ButtonLobbyCreateRoom.xml" path="/comp/Button/"/>
+    <component id="eu5bbt" name="ButtonLobbyJoinRoom.xml" path="/comp/Button/"/>
+    <component id="eu5bbu" name="ButtonLobbyClub.xml" path="/comp/Button/"/>
+    <component id="eu5bbv" name="ButtonLobbyHistory.xml" path="/comp/Button/"/>
+    <component id="eu5bbw" name="ButtonLobbyRule.xml" path="/comp/Button/"/>
+    <component id="eu5bbx" name="ButtonLobbyAdd.xml" path="/comp/Button/"/>
+    <image id="k5s1dh" name="MoneyNumber0.png" path="/res/images/font/"/>
+    <font id="k5s1dg" name="MoneyNumber0.fnt" path="/res/images/font/" texture="k5s1dh"/>
+    <image id="k5s1dj" name="MoneyNumber2.png" path="/res/images/font/"/>
+    <font id="k5s1di" name="MoneyNumber2.fnt" path="/res/images/font/" texture="k5s1dj"/>
+    <image id="k5s1dl" name="Settlement.png" path="/res/images/font/"/>
+    <font id="k5s1dk" name="Settlement.fnt" path="/res/images/font/" texture="k5s1dl"/>
+    <image id="k5s1dn" name="Settlement0.png" path="/res/images/font/"/>
+    <font id="k5s1dm" name="Settlement0.fnt" path="/res/images/font/" texture="k5s1dn"/>
+    <image id="k5s1dp" name="Settlement1.png" path="/res/images/font/"/>
+    <font id="k5s1do" name="Settlement1.fnt" path="/res/images/font/" texture="k5s1dp"/>
+    <image id="k5s1dr" name="Settlement2.png" path="/res/images/font/"/>
+    <font id="k5s1dq" name="Settlement2.fnt" path="/res/images/font/" texture="k5s1dr"/>
+    <image id="k5s1dt" name="Settlement3.png" path="/res/images/font/"/>
+    <font id="k5s1ds" name="Settlement3.fnt" path="/res/images/font/" texture="k5s1dt"/>
+    <image id="k5s1dv" name="Settlement4.png" path="/res/images/font/"/>
+    <font id="k5s1du" name="Settlement4.fnt" path="/res/images/font/" texture="k5s1dv"/>
+    <image id="k5s1dx" name="SettlementB1.png" path="/res/images/font/"/>
+    <font id="k5s1dw" name="SettlementB1.fnt" path="/res/images/font/" texture="k5s1dx"/>
+    <image id="k5s1dz" name="SettlementB2.png" path="/res/images/font/"/>
+    <font id="k5s1dy" name="SettlementB2.fnt" path="/res/images/font/" texture="k5s1dz"/>
+    <image id="k5s1e1" name="zheng_0.png" path="/res/images/font/"/>
+    <font id="k5s1e0" name="zheng.fnt" path="/res/images/font/" texture="k5s1e1"/>
+    <image id="k5s1e2" name="baoPaiFont_0.png" path="/res/images/font/"/>
+    <image id="k5s1e3" name="deskCoinNegative_0.png" path="/res/images/font/"/>
+    <image id="k5s1e4" name="deskCoinPositive_0.png" path="/res/images/font/"/>
+    <image id="k5s1e5" name="duihua_none_0.png" path="/res/images/font/"/>
+    <image id="k5s1e6" name="fu_0.png" path="/res/images/font/"/>
+    <image id="k5s1e7" name="GameScore.png" path="/res/images/font/"/>
+    <image id="k5s1e8" name="MoneyNumber.png" path="/res/images/font/"/>
+    <image id="k5s1e9" name="MoneyNumber3.png" path="/res/images/font/"/>
+    <image id="k5s1ea" name="MoneyNumber4.png" path="/res/images/font/"/>
+    <image id="k5s1eb" name="Settlement10.png" path="/res/images/font/"/>
+    <image id="k5s1ec" name="Settlement01.png" path="/res/images/font/"/>
+    <image id="k5s1ed" name="Settlement11.png" path="/res/images/font/"/>
+    <image id="k5s1ee" name="Settlement21.png" path="/res/images/font/"/>
+    <image id="k5s1ef" name="Settlement31.png" path="/res/images/font/"/>
+    <image id="k5s1eg" name="Settlement41.png" path="/res/images/font/"/>
+    <image id="k5s1eh" name="SettlementB11.png" path="/res/images/font/"/>
+    <image id="k5s1ei" name="SettlementB21.png" path="/res/images/font/"/>
+    <image id="k5s1ej" name="zheng_01.png" path="/res/images/font/"/>
+    <image id="k5s1el" name="baoPaiFont_01.png" path="/res/images/font/"/>
+    <font id="k5s1ek" name="baoPaiFont.fnt" path="/res/images/font/" texture="k5s1el"/>
+    <image id="k5s1en" name="deskCoinNegative_01.png" path="/res/images/font/"/>
+    <font id="k5s1em" name="deskCoinNegative.fnt" path="/res/images/font/" texture="k5s1en"/>
+    <image id="k5s1ep" name="deskCoinPositive_01.png" path="/res/images/font/"/>
+    <font id="k5s1eo" name="deskCoinPositive.fnt" path="/res/images/font/" texture="k5s1ep"/>
+    <image id="k5s1er" name="duihua_none_01.png" path="/res/images/font/"/>
+    <font id="k5s1eq" name="duihua_none.fnt" path="/res/images/font/" texture="k5s1er"/>
+    <image id="k5s1et" name="fu_01.png" path="/res/images/font/"/>
+    <font id="k5s1es" name="fu.fnt" path="/res/images/font/" texture="k5s1et"/>
+    <image id="k5s1ev" name="GameScore1.png" path="/res/images/font/"/>
+    <font id="k5s1eu" name="GameScore.fnt" path="/res/images/font/" texture="k5s1ev"/>
+    <image id="k5s1ex" name="MoneyNumber1.png" path="/res/images/font/"/>
+    <font id="k5s1ew" name="MoneyNumber.fnt" path="/res/images/font/" exported="true" texture="k5s1ex"/>
+    <component id="k5s1ey" name="LobbyRoomCard.xml" path="/comp/"/>
+    <component id="k5s1ez" name="LobbyUserInfo.xml" path="/comp/"/>
+    <image id="k5s1f0" name="n16.png" path="/"/>
+    <component id="k5s1f1" name="LobbyBoard.xml" path="/comp/"/>
+    <component id="k5s1f2" name="BlackView.xml" path="/layout/"/>
+    <component id="k5s1f3" name="MJJoinRoom.xml" path="/layout/" exported="true"/>
+    <component id="k5s1f4" name="JoinNum.xml" path="/comp/"/>
+    <component id="k5s1f5" name="JoinRoomNums.xml" path="/comp/"/>
+    <component id="k5s1f6" name="ButtonJoinNum.xml" path="/comp/Button/"/>
+    <component id="k5s1f7" name="ButtonJoinReset.xml" path="/comp/Button/"/>
+    <component id="k5s1f8" name="ButtonJoinDel.xml" path="/comp/Button/"/>
+    <component id="k5s1f9" name="JoinRoomInput.xml" path="/comp/"/>
+    <component id="k5s1fa" name="MJJoinClub.xml" path="/layout/" exported="true"/>
+    <component id="k5s1fb" name="MJRule.xml" path="/layout/" exported="true"/>
+    <component id="k5s1fc" name="Rules.xml" path="/comp/"/>
+    <component id="k5s1fd" name="ButtonRuleClose.xml" path="/comp/Button/"/>
+  </resources>
+  <publish name="" path="D:\workpaces\Unity\Chen-EUI\Unity\Assets\Bundles\FGUI" packageCount="2" codePath="D:\workpaces\Unity\Chen-EUI\Unity\Codes" extractAlpha="true"/>
+</packageDescription>

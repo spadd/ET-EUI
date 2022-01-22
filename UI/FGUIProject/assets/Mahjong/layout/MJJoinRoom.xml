@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <component id="n0_k5s1" name="n0" src="k5s1f2" fileName="layout/BlackView.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n1_k5s1" name="n1" src="x82h6t" fileName="res/images/join/JoinGame_bg.png" xy="306,23"/>
+    <component id="n2_k5s1" name="Close" src="x82hav" fileName="comp/ButtonSettingClose.xml" xy="896,4"/>
+    <image id="n3_k5s1" name="n3" src="x82h6v" fileName="res/images/join/JoinGame_tittle.png" xy="440,51"/>
+    <component id="n4_k5s1" name="JoinNums" src="k5s1f5" fileName="comp/JoinRoomNums.xml" xy="387,102"/>
+    <component id="n12_k5s1" name="JoinInput" src="k5s1f9" fileName="comp/JoinRoomInput.xml" xy="384,257"/>
+  </displayList>
+</component>

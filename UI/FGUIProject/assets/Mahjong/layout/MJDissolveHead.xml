@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="125,185">
+  <displayList>
+    <image id="n7_c17y" name="frame" src="x82h6q" fileName="res/images/jiesan/WeChat_HeadBg.png" xy="6,0"/>
+    <image id="n8_c17y" name="head" src="x82h2y" fileName="res/images/common/WeChatKWX_UserFaceBg.png" xy="14,9"/>
+    <text id="n9_c17y" name="name" xy="0,116" size="124,32" fontSize="22" color="#995210" align="center" vAlign="middle" autoSize="ellipsis" autoClearText="true" text="[玩家名]"/>
+    <image id="n10_c17y" name="status_background" src="x82h6j" fileName="res/images/jiesan/WeChatKWX_SettingBtn2.png" xy="7,150" scale="0.4,0.4"/>
+    <text id="n11_c17y" name="status" xy="9,153" size="101,28" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" autoClearText="true" text="等待同意"/>
+  </displayList>
+</component>

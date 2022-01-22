@@ -9,6 +9,7 @@ namespace ET
         public const string TestH = "TestH";
         public const string TestH_InputA = "ui://TestH/InputA";
         public const string TestH_ButtonTitle = "ui://TestH/ButtonTitle";
+        public const string TestH_InputP = "ui://TestH/InputP";
         public const string TestH_TestHUI = "ui://TestH/TestHUI";
         public const string TestH_TestHallUI = "ui://TestH/TestHallUI";
     }

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="95,94" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,6,disabled" selected="4"/>
+  <displayList>
+    <image id="n0_x82h" name="n0" src="x82h1i" fileName="res/images/alert/setting_close1.png" xy="0,0">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_x82h" name="n1" src="x82h1j" fileName="res/images/alert/setting_close2.png" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_x82h" name="n2" src="x82h1k" fileName="res/images/alert/setting_close3.png" xy="0,0">
+      <gearDisplay controller="button" pages="6"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>

@@ -5,6 +5,7 @@
     <component id="baih2" name="InputA.xml" path="/comp/"/>
     <component id="baih3" name="ButtonTitle.xml" path="/comp/"/>
     <component id="kvck4" name="TestHallUI.xml" path="/" exported="true"/>
+    <component id="eu5b5" name="InputP.xml" path="/comp/"/>
   </resources>
-  <publish name="" path="D:\workpaces\Unity\Chen-EUI\Unity\Assets\Bundles\FGUI" packageCount="2" codePath="D:\unitystudy\ET-EUI\Unity\Codes"/>
+  <publish name="" path="D:\workpaces\Unity\Chen-EUI\Unity\Assets\Bundles\FGUI" packageCount="2" codePath="D:\workpaces\Unity\Chen-EUI\Unity\Codes"/>
 </packageDescription>

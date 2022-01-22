@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="373,502">
+  <displayList>
+    <image id="n7_c17y" name="n7" src="x82h9n" fileName="res/images/over/WeChatKWX_UserBG.png" xy="0,0"/>
+    <text id="n8_c17y" name="zimoScore" xy="215,169" size="74,46" group="n16_c17y" fontSize="28" color="#633418" autoSize="none" text="0"/>
+    <text id="n9_c17y" name="huScore" xy="215,215" size="74,46" group="n16_c17y" fontSize="28" color="#633418" autoSize="none" text="0"/>
+    <text id="n10_c17y" name="paoScore" xy="215,261" size="74,46" group="n16_c17y" fontSize="28" color="#633418" autoSize="none" text="0"/>
+    <text id="n11_c17y" name="mingScore" xy="215,307" size="74,45" group="n16_c17y" fontSize="28" color="#633418" autoSize="none" text="0"/>
+    <text id="n12_c17y" name="anScore" xy="215,352" size="74,46" group="n16_c17y" fontSize="28" color="#633418" autoSize="none" text="0"/>
+    <group id="n16_c17y" name="scoreGroup" xy="215,169" size="74,229" advanced="true" layout="vt" colGap="-7" excludeInvisibles="true"/>
+    <text id="n13_c17y" name="name" xy="164,50" size="164,39" fontSize="26" color="#633418" autoSize="ellipsis" text="张三的玩家名"/>
+    <text id="n14_c17y" name="id" xy="162,96" size="166,39" fontSize="26" color="#633418" autoSize="none" text="ID:8888888"/>
+    <image id="n17_c17y" name="headIcon" src="x82h2y" fileName="res/images/common/WeChatKWX_UserFaceBg.png" xy="52,37"/>
+    <image id="n18_c17y" name="owner" src="x82h4l" fileName="res/images/desk/WeChatKWX_Zhuang.png" xy="4,24"/>
+    <image id="n19_c17y" name="winner" src="x82h9f" fileName="res/images/over/WeChatKWX_goodWinPlayer.png" xy="42,444"/>
+    <image id="n20_c17y" name="loser" src="x82h9h" fileName="res/images/over/WeChatKWX_paowang.png" xy="205,424"/>
+    <text id="n15_c17y" name="total" xy="110,402" size="120,59" fontSize="44" color="#633418" align="center" autoSize="none" text="+26"/>
+  </displayList>
+</component>

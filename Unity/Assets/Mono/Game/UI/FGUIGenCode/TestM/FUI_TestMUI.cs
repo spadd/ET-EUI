@@ -7,7 +7,6 @@ namespace TestM
 {
     public partial class FUI_TestMUI : GComponent
     {
-        public GGraph m_bg;
         public GTextField m_title;
         public GTextField m_logo;
         public GTextField m_tip;
@@ -23,11 +22,10 @@ namespace TestM
         {
             base.ConstructFromXML(xml);
 
-            m_bg = (GGraph)GetChildAt(0);
-            m_title = (GTextField)GetChildAt(1);
-            m_logo = (GTextField)GetChildAt(2);
-            m_tip = (GTextField)GetChildAt(3);
-            m_pb = (GProgressBar)GetChildAt(4);
+            m_title = (GTextField)GetChildAt(0);
+            m_logo = (GTextField)GetChildAt(1);
+            m_tip = (GTextField)GetChildAt(2);
+            m_pb = (GProgressBar)GetChildAt(3);
         }
     }
 }

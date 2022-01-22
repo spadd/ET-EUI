@@ -12,6 +12,15 @@ namespace ET
         {
             self.Awake();
         }
+    }    
+    
+    [ObjectSystem]
+    public class FGUIComponentUpdateSystem : UpdateSystem<FGUIComponent>
+    {
+        public override void Update(FGUIComponent self)
+        {
+            self.Update();
+        }
     }
     
     [ObjectSystem]
@@ -25,9 +34,21 @@ namespace ET
     
     public static class FGUIComponentSystem
     {
-        
+
+        public static void Update(this FGUIComponent self)
+        {
+            if (UnityEngine.Input.GetKeyDown(UnityEngine.KeyCode.R))
+            {
+                CodeLoader.Instance.LoadLogic();
+                Game.EventSystem.Add(CodeLoader.Instance.GetTypes());
+                Game.EventSystem.Load();
+                Log.Debug("hot reload success!");
+            }
+        }
+
         public static void Awake(this FGUIComponent self)
         {
+            GRoot.inst.SetContentScaleFactor(1280,720,UIContentScaler.ScreenMatchMode.MatchWidthOrHeight);
             if (null != self.AllWindowsDic)
             {
                 self.AllWindowsDic.Clear();

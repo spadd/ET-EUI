@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <component id="n22_k5s1" name="n22" src="k5s1f2" fileName="layout/BlackView.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n0_c17y" name="container" src="x82h9m" fileName="res/images/over/WeChatKWX_SingleEnd_bg.png" xy="0,0"/>
+    <text id="n1_c17y" name="title" xy="437,20" size="408,63" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="襄阳玩法 8番封顶"/>
+    <text id="n2_c17y" name="desc" xy="939,8" size="327,36" fontSize="26" color="#ffffff" align="right" autoSize="none" text="房号: 8888888 局数: 8/8"/>
+    <text id="n3_c17y" name="timestamp" xy="20,9" size="313,36" fontSize="26" color="#ffffff" autoSize="none" text="2017-03-05 12:33:35"/>
+    <list id="n21_c17y" name="list" xy="41,76" size="1187,504" layout="row" defaultItem="ui://wtxqw9t3c17ybq" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n4_c17y" name="cancel" src="c17ybo" fileName="comp/ButtonOverBack.xml" xy="325,582"/>
+    <component id="n5_c17y" name="share" src="c17ybp" fileName="comp/ButtonOverShare.xml" xy="725,582"/>
+  </displayList>
+</component>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="202,74" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,6,disabled" selected="0"/>
+  <displayList>
+    <image id="n0_x82h" name="n0" src="x82h6n" fileName="res/images/jiesan/WeChat_Cancel0.png" xy="0,0">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_x82h" name="n1" src="x82h6o" fileName="res/images/jiesan/WeChat_Cancel1.png" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_x82h" name="n2" src="x82h6p" fileName="res/images/jiesan/WeChat_Cancel2.png" xy="0,0">
+      <gearDisplay controller="button" pages="6"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>

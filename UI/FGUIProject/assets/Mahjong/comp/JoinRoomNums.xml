@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="505,120">
+  <displayList>
+    <image id="n4_k5s1" name="n4" src="x82h6u" fileName="res/images/join/JoinGame_bg2.png" xy="0,0"/>
+    <component id="n5_k5s1" name="Num1" src="k5s1f4" fileName="comp/JoinNum.xml" xy="23,29"/>
+    <component id="n7_k5s1" name="Num2" src="k5s1f4" fileName="comp/JoinNum.xml" xy="102,29"/>
+    <component id="n8_k5s1" name="Num3" src="k5s1f4" fileName="comp/JoinNum.xml" xy="181,29"/>
+    <component id="n9_k5s1" name="Num4" src="k5s1f4" fileName="comp/JoinNum.xml" xy="260,29"/>
+    <component id="n10_k5s1" name="Num5" src="k5s1f4" fileName="comp/JoinNum.xml" xy="339,29"/>
+    <component id="n11_k5s1" name="Num6" src="k5s1f4" fileName="comp/JoinNum.xml" xy="418,29"/>
+  </displayList>
+</component>

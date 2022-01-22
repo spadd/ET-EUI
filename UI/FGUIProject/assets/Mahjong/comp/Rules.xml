@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="940,580" overflow="scroll">
+  <displayList>
+    <image id="n2_k5s1" name="n2" src="x82h9q" fileName="res/images/rule/f_0.png" xy="0,0" group="n10_k5s1"/>
+    <image id="n3_k5s1" name="n3" src="x82h9r" fileName="res/images/rule/f_1.png" xy="0,549" group="n10_k5s1"/>
+    <image id="n4_k5s1" name="n4" src="x82h9s" fileName="res/images/rule/f-2.png" xy="0,1098" group="n10_k5s1"/>
+    <image id="n5_k5s1" name="n5" src="x82h9t" fileName="res/images/rule/f-3.png" xy="0,1647" group="n10_k5s1"/>
+    <image id="n6_k5s1" name="n6" src="x82h9u" fileName="res/images/rule/f-4.png" xy="0,2196" group="n10_k5s1"/>
+    <image id="n7_k5s1" name="n7" src="x82h9v" fileName="res/images/rule/f-5.png" xy="0,2745" group="n10_k5s1"/>
+    <image id="n8_k5s1" name="n8" src="x82h9w" fileName="res/images/rule/f-6.png" xy="0,3294" group="n10_k5s1"/>
+    <image id="n9_k5s1" name="n9" src="x82h9x" fileName="res/images/rule/f-7.png" xy="0,3843" group="n10_k5s1"/>
+    <group id="n10_k5s1" name="n10" xy="0,0" size="940,4392" advanced="true" layout="vt" excludeInvisibles="true"/>
+  </displayList>
+</component>

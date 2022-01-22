@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720" bgColorEnabled="true" bgColor="#000000">
+  <displayList>
+    <image id="n0_x82h" name="n0" src="x82h8k" fileName="res/images/login/agreement_background.png" xy="163,33">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n1_x82h" name="Content" src="x82haq" fileName="comp/AgreementLabel.xml" xy="210,156"/>
+    <component id="n4_x82h" name="BtnOk" src="x82hak" fileName="comp/ButtonComfirm.xml" xy="539,585"/>
+  </displayList>
+</component>

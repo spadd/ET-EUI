@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="1080,1920">
+<component size="1280,720" bgColorEnabled="true" bgColor="#000000">
   <displayList>
-    <graph id="n0_baih" name="bg" xy="0,0" size="1080,1920" type="rect" fillColor="#ff000000">
-      <relation target="" sidePair="width-width,height-height"/>
-    </graph>
-    <text id="n1_baih" name="title" xy="0,159" size="1080,100" fontSize="60" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="测试热更"/>
-    <text id="n4_baih" name="tip" xy="0,1357" size="1080,100" fontSize="40" color="#ff0000" align="center" autoSize="none" text=""/>
-    <component id="n5_baih" name="account" src="baih2" fileName="comp/InputA.xml" xy="140,920"/>
-    <component id="n6_baih" name="password" src="baih2" fileName="comp/InputA.xml" xy="140,1031"/>
-    <component id="n8_baih" name="register" src="baih3" fileName="comp/ButtonTitle.xml" xy="236,1208">
+    <text id="n1_baih" name="title" xy="100,0" size="1080,100" fontSize="60" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="热更登录"/>
+    <component id="n5_baih" name="account" src="baih2" fileName="comp/InputA.xml" xy="240,148"/>
+    <component id="n6_baih" name="password" src="eu5b5" fileName="comp/InputP.xml" xy="240,259"/>
+    <component id="n8_baih" name="register" src="baih3" fileName="comp/ButtonTitle.xml" xy="340,402">
       <Button title="注册" titleColor="#ff3366"/>
     </component>
-    <component id="n7_baih" name="login" src="baih3" fileName="comp/ButtonTitle.xml" xy="517,1208">
+    <component id="n7_baih" name="login" src="baih3" fileName="comp/ButtonTitle.xml" xy="740,402">
       <Button title="登录" titleColor="#996600"/>
     </component>
+    <text id="n4_baih" name="tip" xy="100,508" size="1080,100" fontSize="40" color="#ff0000" align="center" autoSize="none" text=""/>
+    <text id="n9_eu5b" name="version" xy="0,660" size="1023,60" fontSize="40" color="#ffff00" autoSize="none" text=""/>
   </displayList>
 </component>

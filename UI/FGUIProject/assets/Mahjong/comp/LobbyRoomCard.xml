@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="292,80">
+  <displayList>
+    <image id="n9_k5s1" name="n9" src="x82h8b" fileName="res/images/lobby/user_pic_xiugaitouxiang.png" xy="12,22"/>
+    <component id="n8_k5s1" name="AddRoomCard" src="eu5bbx" fileName="comp/ButtonLobbyAdd.xml" xy="212,6"/>
+    <image id="n10_k5s1" name="n10" src="x82h82" fileName="res/images/lobby/fangka.png" xy="0,0" scale="0.6,0.6"/>
+    <text id="n11_k5s1" name="CardCnt" xy="65,26" size="155,40" font="ui://wtxqw9t3k5s1ew" fontSize="36" color="#ffffff" align="center" autoSize="none" text="0"/>
+  </displayList>
+</component>

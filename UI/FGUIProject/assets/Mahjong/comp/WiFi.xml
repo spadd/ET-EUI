@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="64,64">
+  <controller name="c1" exported="true" pages="0,wifi0,1,wifi1,2,wifi2,3,wifi3,4,wifi4,5,cellular0,6,cellular1,7,cellular2,8,cellular3,9,cellular4" selected="4"/>
+  <displayList>
+    <image id="n10_x82h" name="n10" src="x82haa" fileName="res/signal/wifi-0.png" xy="0,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n11_x82h" name="n11" src="x82hab" fileName="res/signal/wifi-1.png" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n12_x82h" name="n12" src="x82hac" fileName="res/signal/wifi-2.png" xy="0,0">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <image id="n13_x82h" name="n13" src="x82had" fileName="res/signal/wifi-3.png" xy="0,0">
+      <gearDisplay controller="c1" pages="3"/>
+    </image>
+    <image id="n14_x82h" name="n14" src="x82hae" fileName="res/signal/wifi-4.png" xy="0,0">
+      <gearDisplay controller="c1" pages="4"/>
+    </image>
+    <image id="n15_x82h" name="n15" src="x82ha5" fileName="res/signal/cellular-0.png" xy="0,0">
+      <gearDisplay controller="c1" pages="5"/>
+    </image>
+    <image id="n16_x82h" name="n16" src="x82ha6" fileName="res/signal/cellular-1.png" xy="0,0">
+      <gearDisplay controller="c1" pages="6"/>
+    </image>
+    <image id="n17_x82h" name="n17" src="x82ha7" fileName="res/signal/cellular-2.png" xy="0,0">
+      <gearDisplay controller="c1" pages="7"/>
+    </image>
+    <image id="n18_x82h" name="n18" src="x82ha8" fileName="res/signal/cellular-3.png" xy="0,0">
+      <gearDisplay controller="c1" pages="8"/>
+    </image>
+    <image id="n19_x82h" name="n19" src="x82ha9" fileName="res/signal/cellular-4.png" xy="0,0">
+      <gearDisplay controller="c1" pages="9"/>
+    </image>
+  </displayList>
+</component>

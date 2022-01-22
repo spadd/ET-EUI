@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="865,172">
+  <displayList>
+    <image id="n0_x82h" name="n0" src="x82h22" fileName="res/images/club/hs_cell.png" xy="432,86" pivot="0.5,0.5" anchor="true"/>
+    <image id="n2_x82h" name="n2" src="x82h25" fileName="res/images/club/LB_Home.png" xy="8,7" scale="0.4,0.4"/>
+    <text id="n1_x82h" name="name" xy="47,5" size="300,36" fontSize="26" color="#2d7acb" autoSize="ellipsis" autoClearText="true" text="不怕输的苦就怕断了赌"/>
+    <text id="n3_x82h" name="member_count" xy="441,8" size="200,36" fontSize="26" color="#a55b3e" autoSize="shrink" autoClearText="true" text="人数: 90/500"/>
+    <text id="n4_x82h" name="club_id" xy="656,8" size="200,36" fontSize="26" color="#a55b3e" align="right" autoSize="shrink" autoClearText="true" text="俱乐部ID: 99999"/>
+    <component id="n5_x82h" name="create" src="x82hb0" fileName="comp/ButtonCreateRoom.xml" xy="669,76"/>
+    <text id="n6_x82h" name="desc" xy="16,74" size="620,78" fontSize="26" color="#4d4a44" autoSize="ellipsis" autoClearText="true" text="喜欢打麻将的加进来哈，线下娱乐场所，成都市武侯区金济南路11号三峡茶楼，线上线下同时娱乐。微信群请加群主wx_sanxiachalou"/>
+  </displayList>
+</component>

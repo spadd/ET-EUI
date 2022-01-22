@@ -101,5 +101,10 @@ namespace ET
         {
             public Scene ZoneScene;
         }
+        
+        public struct EnterMJHall
+        {
+            public Scene ZoneScene;
+        }
     }
 }

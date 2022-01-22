@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="66,29">
+  <controller name="c1" pages="0,green,1,yellow,2,red" selected="0"/>
+  <displayList>
+    <text id="n14_x82h" name="delay" xy="0,0" size="66,29" fontSize="20" color="#00ff00" align="center" autoClearText="true" text="290ms">
+      <gearColor controller="c1" pages="0,1,2" values="#00ff00,#000000|#ffff00,#000000|#ce0000,#000000"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+</component>

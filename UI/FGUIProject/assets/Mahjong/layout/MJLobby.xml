@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <image id="n0_eu5b" name="n0" src="x82h7x" fileName="res/images/lobby/background.png" xy="0,0"/>
+    <image id="n1_eu5b" name="n1" src="x82h88" fileName="res/images/lobby/people.png" xy="0,193"/>
+    <image id="n2_eu5b" name="n2" src="x82h2s" fileName="res/images/common/logo.png" xy="0,537"/>
+    <component id="n3_eu5b" name="CreateRoom" src="eu5bbs" fileName="comp/ButtonLobbyCreateRoom.xml" xy="717,179"/>
+    <component id="n4_eu5b" name="JoinRoom" src="eu5bbt" fileName="comp/ButtonLobbyJoinRoom.xml" xy="561,362"/>
+    <component id="n5_eu5b" name="Club" src="eu5bbu" fileName="comp/ButtonLobbyClub.xml" xy="676,550"/>
+    <component id="n6_eu5b" name="History" src="eu5bbv" fileName="comp/ButtonLobbyHistory.xml" xy="865,554"/>
+    <component id="n7_eu5b" name="Rule" src="eu5bbw" fileName="comp/ButtonLobbyRule.xml" xy="1047,556"/>
+    <component id="n9_k5s1" name="RoomCard" src="k5s1ey" fileName="comp/LobbyRoomCard.xml" xy="494,4"/>
+    <component id="n12_k5s1" name="UserInfo" src="k5s1ez" fileName="comp/LobbyUserInfo.xml" xy="24,11"/>
+    <component id="n16_k5s1" name="Board" src="k5s1f1" fileName="comp/LobbyBoard.xml" xy="230,132"/>
+  </displayList>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720" bgColor="#000000">
+  <displayList>
+    <component id="n5_k5s1" name="n5" src="k5s1f2" fileName="layout/BlackView.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n1_x82h" name="n1" src="x82h17" fileName="res/images/alert/alert_background.png" xy="328,123">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n2_x82h" name="yes" src="x82has" fileName="comp/ButtonComfirmBox.xml" xy="389,454"/>
+    <component id="n3_x82h" name="no" src="x82hat" fileName="comp/ButtonCancelBox.xml" xy="671,454"/>
+    <text id="n4_x82h" name="text" xy="430,238" size="420,200" fontSize="24" color="#4a4d6d" align="center" vAlign="middle" autoSize="shrink" autoClearText="true" text="恭喜您, 我们这里显示一些温馨提示, 测试一下"/>
+  </displayList>
+</component>

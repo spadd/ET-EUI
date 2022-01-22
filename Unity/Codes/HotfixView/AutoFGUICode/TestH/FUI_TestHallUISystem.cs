@@ -32,10 +32,11 @@ namespace ET
             self.GObject?.Dispose();
             self.GObject = null;
             self.uiTransform = null;
-			self.m_bg = null;
 			self.m_title = null;
 			self.m_tip = null;
-			self.m_enter = null;
+			self.m_UserInfo = null;
+			self.m_EnterMj = null;
+			self.m_EnterMMO = null;
         }
     }
 }

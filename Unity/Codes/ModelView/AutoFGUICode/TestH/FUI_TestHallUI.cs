@@ -38,27 +38,12 @@ namespace ET
 
         public GObject GObject = null;
         public GComponent uiTransform = null;
-        public GGraph m_bg = null;
         public GTextField m_title = null;
         public GTextField m_tip = null;
-        public GButton m_enter = null;
+        public GTextField m_UserInfo = null;
+        public GButton m_EnterMj = null;
+        public GButton m_EnterMMO = null;
 
-        public GGraph EGGraph_bg
-        {
-            get
-            {
-                if (this.uiTransform == null)
-                {
-                    Log.Error("uiTransform is null.");
-                    return null;
-                }
-                if( this.m_bg == null )
-                {
-                    this.m_bg = (GGraph)uiTransform.GetChildAt(0);
-                }
-                return this.m_bg;
-            }
-        }
         public GTextField EGTextField_title
         {
             get
@@ -70,7 +55,7 @@ namespace ET
                 }
                 if( this.m_title == null )
                 {
-                    this.m_title = (GTextField)uiTransform.GetChildAt(1);
+                    this.m_title = (GTextField)uiTransform.GetChildAt(0);
                 }
                 return this.m_title;
             }
@@ -86,12 +71,12 @@ namespace ET
                 }
                 if( this.m_tip == null )
                 {
-                    this.m_tip = (GTextField)uiTransform.GetChildAt(2);
+                    this.m_tip = (GTextField)uiTransform.GetChildAt(1);
                 }
                 return this.m_tip;
             }
         }
-        public GButton EGButton_enter
+        public GTextField EGTextField_UserInfo
         {
             get
             {
@@ -100,11 +85,43 @@ namespace ET
                     Log.Error("uiTransform is null.");
                     return null;
                 }
-                if( this.m_enter == null )
+                if( this.m_UserInfo == null )
                 {
-                    this.m_enter = (GButton)uiTransform.GetChildAt(3);
+                    this.m_UserInfo = (GTextField)uiTransform.GetChildAt(2);
                 }
-                return this.m_enter;
+                return this.m_UserInfo;
+            }
+        }
+        public GButton EGButton_EnterMj
+        {
+            get
+            {
+                if (this.uiTransform == null)
+                {
+                    Log.Error("uiTransform is null.");
+                    return null;
+                }
+                if( this.m_EnterMj == null )
+                {
+                    this.m_EnterMj = (GButton)uiTransform.GetChildAt(3);
+                }
+                return this.m_EnterMj;
+            }
+        }
+        public GButton EGButton_EnterMMO
+        {
+            get
+            {
+                if (this.uiTransform == null)
+                {
+                    Log.Error("uiTransform is null.");
+                    return null;
+                }
+                if( this.m_EnterMMO == null )
+                {
+                    this.m_EnterMMO = (GButton)uiTransform.GetChildAt(4);
+                }
+                return this.m_EnterMMO;
             }
         }
     }

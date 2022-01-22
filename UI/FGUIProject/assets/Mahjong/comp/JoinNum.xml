@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="64,64">
+  <displayList>
+    <image id="n5_k5s1" name="n5" src="x82h6x" fileName="res/images/join/Join_num_Bg.png" xy="1,0"/>
+    <text id="n6_k5s1" name="Num" xy="0,-1" size="64,66" fontSize="50" color="#ffffff" align="center" autoSize="none" autoClearText="true" text=""/>
+  </displayList>
+</component>

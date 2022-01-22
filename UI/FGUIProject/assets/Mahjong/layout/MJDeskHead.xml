@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="547,329">
+  <controller name="que" pages="0,tiao,1,tong,2,wan" selected="2"/>
+  <displayList>
+    <image id="n0_x82h" name="head_background" src="x82h3u" fileName="res/images/desk/head_frame.png" xy="38,100"/>
+    <text id="n1_x82h" name="name" xy="7,197" size="160,32" fontSize="22" color="#f4d34f" align="center" autoSize="ellipsis" text="名字有点长"/>
+    <image id="n2_x82h" name="head" src="x82h2y" fileName="res/images/common/WeChatKWX_UserFaceBg.png" xy="41,102"/>
+    <component id="n3_x82h" name="frame" src="x82hb7" fileName="comp/ButtonHead.xml" xy="35,94" scale="0.37,0.37"/>
+    <text id="n4_x82h" name="score" xy="41,226" size="96,34" fontSize="24" color="#f4d34f" align="center" autoSize="none" text="1000"/>
+    <image id="n5_x82h" name="bg" src="x82h2d" fileName="res/images/common/common_pic_heikuang02.png" xy="151,102" group="n8_x82h" scale="0.571,0.54"/>
+    <text id="n6_x82h" name="id" xy="160,108" size="272,42" group="n8_x82h" fontSize="30" color="#f4d34f" autoSize="none" text="ID:2000099"/>
+    <text id="n7_x82h" name="ip" xy="160,150" size="272,42" group="n8_x82h" fontSize="30" color="#f4d34f" text="IP:223.223.223.223"/>
+    <group id="n8_x82h" name="info" xy="151,102" size="508,176"/>
+    <image id="n9_x82h" name="n9" src="x82h3y" fileName="res/images/desk/KWX_chat_message_bg.png" xy="43,9" size="481,84" group="n11_x82h"/>
+    <text id="n10_x82h" name="chattext" xy="56,22" size="454,42" group="n11_x82h" fontSize="30" color="#bf761b" text="怎么又断线了，网络怎么这么差呀"/>
+    <group id="n11_x82h" name="message" xy="43,9" size="481,84" advanced="true"/>
+    <image id="n12_x82h" name="n12" src="x82h2t" fileName="res/images/common/setting_pic_dise.png" xy="40,166" group="n14_x82h" scale="0.4,0.7"/>
+    <text id="n13_x82h" name="offlinetext" xy="64,164" pivot="0.5,0.5" size="48,32" group="n14_x82h" fontSize="22" color="#ffffff" strokeColor="#b91c35" text="离线"/>
+    <group id="n14_x82h" name="offline" xy="40,164" size="250,43"/>
+    <image id="n15_x82h" name="maker" src="x82h4m" fileName="res/images/desk/zhuang.png" xy="43,104"/>
+    <image id="n16_x82h" name="ready" src="x82h3i" fileName="res/images/desk/game_font_zhunbeizhong.png" xy="60,266" scale="0.5,0.5"/>
+    <image id="n17_x82h" name="dingque" src="x82h3h" fileName="res/images/desk/game_font_dingquezhong.png" xy="37,280" scale="0.7,0.7"/>
+    <image id="n18_x82h" name="queBG" src="x82h3j" fileName="res/images/desk/game_frame_xiaoyuan.png" xy="112,86"/>
+    <image id="n19_x82h" name="que_tiao" src="x82h3m" fileName="res/images/desk/game_icon_tiao.png" xy="116,87" scale="0.35,0.35">
+      <gearDisplay controller="que" pages="0"/>
+    </image>
+    <image id="n20_x82h" name="que_tong" src="x82h3n" fileName="res/images/desk/game_icon_tong.png" xy="117,88" scale="0.35,0.35">
+      <gearDisplay controller="que" pages="1"/>
+    </image>
+    <image id="n21_x82h" name="que_wan" src="x82h3o" fileName="res/images/desk/game_icon_wan.png" xy="114,88" scale="0.35,0.35">
+      <gearDisplay controller="que" pages="2"/>
+    </image>
+  </displayList>
+</component>

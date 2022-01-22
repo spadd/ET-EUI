@@ -38,30 +38,14 @@ namespace ET
 
         public GObject GObject = null;
         public GComponent uiTransform = null;
-        public GGraph m_bg = null;
         public GTextField m_title = null;
-        public GTextField m_tip = null;
         public FUI_InputA m_account = null;
-        public FUI_InputA m_password = null;
+        public FUI_InputP m_password = null;
         public GButton m_register = null;
         public GButton m_login = null;
+        public GTextField m_tip = null;
+        public GTextField m_version = null;
 
-        public GGraph EGGraph_bg
-        {
-            get
-            {
-                if (this.uiTransform == null)
-                {
-                    Log.Error("uiTransform is null.");
-                    return null;
-                }
-                if( this.m_bg == null )
-                {
-                    this.m_bg = (GGraph)uiTransform.GetChildAt(0);
-                }
-                return this.m_bg;
-            }
-        }
         public GTextField EGTextField_title
         {
             get
@@ -73,25 +57,9 @@ namespace ET
                 }
                 if( this.m_title == null )
                 {
-                    this.m_title = (GTextField)uiTransform.GetChildAt(1);
+                    this.m_title = (GTextField)uiTransform.GetChildAt(0);
                 }
                 return this.m_title;
-            }
-        }
-        public GTextField EGTextField_tip
-        {
-            get
-            {
-                if (this.uiTransform == null)
-                {
-                    Log.Error("uiTransform is null.");
-                    return null;
-                }
-                if( this.m_tip == null )
-                {
-                    this.m_tip = (GTextField)uiTransform.GetChildAt(2);
-                }
-                return this.m_tip;
             }
         }
         public FUI_InputA EFUI_InputA_account
@@ -105,12 +73,12 @@ namespace ET
                 }
                 if( this.m_account == null )
                 {
-                    this.m_account = this.AddChild<FUI_InputA, GObject>(uiTransform.GetChildAt(3));
+                    this.m_account = this.AddChild<FUI_InputA, GObject>(uiTransform.GetChildAt(1));
                 }
                 return this.m_account;
             }
         }
-        public FUI_InputA EFUI_InputA_password
+        public FUI_InputP EFUI_InputP_password
         {
             get
             {
@@ -121,7 +89,7 @@ namespace ET
                 }
                 if( this.m_password == null )
                 {
-                    this.m_password = this.AddChild<FUI_InputA, GObject>(uiTransform.GetChildAt(4));
+                    this.m_password = this.AddChild<FUI_InputP, GObject>(uiTransform.GetChildAt(2));
                 }
                 return this.m_password;
             }
@@ -137,7 +105,7 @@ namespace ET
                 }
                 if( this.m_register == null )
                 {
-                    this.m_register = (GButton)uiTransform.GetChildAt(5);
+                    this.m_register = (GButton)uiTransform.GetChildAt(3);
                 }
                 return this.m_register;
             }
@@ -153,9 +121,41 @@ namespace ET
                 }
                 if( this.m_login == null )
                 {
-                    this.m_login = (GButton)uiTransform.GetChildAt(6);
+                    this.m_login = (GButton)uiTransform.GetChildAt(4);
                 }
                 return this.m_login;
+            }
+        }
+        public GTextField EGTextField_tip
+        {
+            get
+            {
+                if (this.uiTransform == null)
+                {
+                    Log.Error("uiTransform is null.");
+                    return null;
+                }
+                if( this.m_tip == null )
+                {
+                    this.m_tip = (GTextField)uiTransform.GetChildAt(5);
+                }
+                return this.m_tip;
+            }
+        }
+        public GTextField EGTextField_version
+        {
+            get
+            {
+                if (this.uiTransform == null)
+                {
+                    Log.Error("uiTransform is null.");
+                    return null;
+                }
+                if( this.m_version == null )
+                {
+                    this.m_version = (GTextField)uiTransform.GetChildAt(6);
+                }
+                return this.m_version;
             }
         }
     }

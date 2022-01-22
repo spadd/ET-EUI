@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="1080,1920">
+<component size="1280,720" bgColorEnabled="true" bgColor="#000000">
   <displayList>
-    <graph id="n0_baih" name="bg" xy="0,0" size="1080,1920" type="rect" fillColor="#ff000000">
-      <relation target="" sidePair="width-width,height-height"/>
-    </graph>
-    <text id="n1_baih" name="title" xy="0,159" size="1080,100" fontSize="60" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="测试冷更进度条"/>
-    <text id="n5_baih" name="logo" xy="0,335" size="1080,100" fontSize="60" color="#ff0000" align="center" vAlign="middle" autoSize="none" text="ET6"/>
-    <text id="n4_baih" name="tip" xy="0,1685" size="1080,100" fontSize="40" color="#00ffff" align="center" autoSize="none" text="tips:等待加载...."/>
-    <component id="n3_baih" name="pb" src="baih3" fileName="comp/ProgressBar.xml" xy="180,1543">
-      <ProgressBar value="100" max="100"/>
+    <text id="n1_baih" name="title" xy="100,34" size="1080,100" fontSize="60" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="测试冷更进度条"/>
+    <text id="n5_baih" name="logo" xy="100,124" size="1080,100" fontSize="60" color="#ff0000" align="center" vAlign="middle" autoSize="none" text="ET6"/>
+    <text id="n4_baih" name="tip" xy="100,626" size="1080,100" fontSize="40" color="#00ffff" align="center" autoSize="none" text="tips:检测资源...."/>
+    <component id="n3_baih" name="pb" src="baih3" fileName="comp/ProgressBar.xml" xy="100,561" size="1080,50">
+      <ProgressBar max="100"/>
     </component>
   </displayList>
 </component>

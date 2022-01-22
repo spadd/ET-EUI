@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720" bgColor="#000000">
+  <displayList>
+    <component id="n6_k5s1" name="BlackView" src="k5s1f2" fileName="layout/BlackView.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n0_x82h" name="n0" src="x82h1z" fileName="res/images/club/background.png" xy="639,359" pivot="0.5,0.5" anchor="true"/>
+    <list id="n5_x82h" name="ClubList" xy="639,342" pivot="0.5,0.5" anchor="true" size="865,470" overflow="scroll" lineGap="10" defaultItem="ui://wtxqw9t3x82haz" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <image id="n1_x82h" name="Empty" src="x82h23" fileName="res/images/club/hs_nullhistory.png" xy="640,360" pivot="0.5,0.5" anchor="true"/>
+    <component id="n2_x82h" name="Apply" src="x82hay" fileName="comp/ButtonApplyBox.xml" xy="502,645" pivot="0.5,0.5" anchor="true"/>
+    <component id="n4_x82h" name="Ok" src="x82has" fileName="comp/ButtonComfirmBox.xml" xy="801,645" pivot="0.5,0.5" anchor="true"/>
+    <component id="n7_k5s1" name="Close" src="x82hav" fileName="comp/ButtonSettingClose.xml" xy="1067,3"/>
+  </displayList>
+</component>

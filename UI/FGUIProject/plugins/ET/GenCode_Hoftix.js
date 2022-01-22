@@ -137,18 +137,26 @@ function genHoftixCode(handler) {
             }
             else if (memberInfo.group == 1) {
                 if (getMemberByName) {
-                    writer.writeln('%s = uiTransform.GetController("%s");', memberInfo.varName, memberInfo.name);
+                    let findPath = `(${memberInfo.type})uiTransform.GetController(${memberInfo.name});`;
+                    writer.writeln(genGet(memberInfo.type, memberInfo.varName, findPath));
+                    //writer.writeln('%s = uiTransform.GetController("%s");', memberInfo.varName, memberInfo.name);
                 }
                 else {
-                    writer.writeln('%s = uiTransform.GetControllerAt(%s);', memberInfo.varName, memberInfo.index);
+                    let findPath = `(${memberInfo.type})uiTransform.GetControllerAt(${memberInfo.index});`;
+                    writer.writeln(genGet(memberInfo.type, memberInfo.varName, findPath));
+                    //writer.writeln('%s = uiTransform.GetControllerAt(%s);', memberInfo.varName, memberInfo.index);
                 }
             }
             else {
                 if (getMemberByName) {
-                    writer.writeln('%s = uiTransform.GetTransition("%s");', memberInfo.varName, memberInfo.name);
+                    let findPath = `(${memberInfo.type})uiTransform.GetTransition(${memberInfo.name});`;
+                    writer.writeln(genGet(memberInfo.type, memberInfo.varName, findPath));
+                    //writer.writeln('%s = uiTransform.GetTransition("%s");', memberInfo.varName, memberInfo.name);
                 }
                 else {
-                    writer.writeln('%s = uiTransform.GetTransitionAt(%s);', memberInfo.varName, memberInfo.index);
+                    let findPath = `(${memberInfo.type})uiTransform.GetTransitionAt(${memberInfo.index});`;
+                    writer.writeln(genGet(memberInfo.type, memberInfo.varName, findPath));
+                    //writer.writeln('%s = uiTransform.GetTransitionAt(%s);', memberInfo.varName, memberInfo.index);
                 }
             }
         }

@@ -8,12 +8,12 @@ function onPublish(handler) {
     if (!handler.genCode) {
         console.log('gen hoftix');
         handler.genCode = false;
-        GenCode_Hoftix_1.genHoftixCode(handler);
+        (0, GenCode_Hoftix_1.genHoftixCode)(handler);
     }
     else {
         console.log('gen runtime');
         handler.genCode = false;
-        GenCode_CSharp_1.genCode(handler);
+        (0, GenCode_CSharp_1.genCode)(handler);
     }
 }
 exports.onPublish = onPublish;

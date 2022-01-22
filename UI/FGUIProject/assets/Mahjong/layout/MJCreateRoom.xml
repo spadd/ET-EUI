@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720" bgColor="#000000">
+  <controller name="mode" exported="true" pages="0,m3,1,m4" selected="0"/>
+  <controller name="round" exported="true" pages="0,r4,1,r8" selected="0"/>
+  <controller name="max_fan" exported="true" pages="0,f3,1,f4,2,f5" selected="0"/>
+  <controller name="zimo" exported="true" pages="0,fan,1,di" selected="0"/>
+  <controller name="rules" exported="true" pages="0,yaojiu,1,menqing,2,pengpeng,3,jiaxin,4,jiangdui,5,pinghu" selected="0"/>
+  <displayList>
+    <component id="n19_k5s1" name="n19" src="k5s1f2" fileName="layout/BlackView.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n0_x82h" name="n0" src="x82h36" fileName="res/images/create/create_room_background.png" xy="51,0"/>
+    <component id="n1_x82h" name="close" src="x82hav" fileName="comp/ButtonSettingClose.xml" xy="1161,24"/>
+    <component id="n2_x82h" name="create" src="x82hb3" fileName="comp/ButtonCreateRoom2.xml" xy="519,598"/>
+    <component id="n3_x82h" name="m3" src="x82hb4" fileName="comp/ToggleSelect1.xml" xy="320,141" size="180,38">
+      <Button checked="true" title="三人两房" controller="mode" page="0"/>
+    </component>
+    <component id="n4_x82h" name="m4" src="x82hb4" fileName="comp/ToggleSelect1.xml" xy="561,141" size="301,38">
+      <Button title="血战到底&lt;四人&gt;" controller="mode" page="1"/>
+    </component>
+    <component id="n5_x82h" name="r4" src="x82hb4" fileName="comp/ToggleSelect1.xml" xy="320,221" size="180,38">
+      <Button checked="true" title="4局" controller="round" page="0"/>
+    </component>
+    <component id="n6_x82h" name="r8" src="x82hb4" fileName="comp/ToggleSelect1.xml" xy="561,221" size="301,38">
+      <Button title="8局" controller="round" page="1"/>
+    </component>
+    <component id="n7_x82h" name="f3" src="x82hb4" fileName="comp/ToggleSelect1.xml" xy="320,301" size="180,38">
+      <Button checked="true" title="3番封顶" controller="max_fan" page="0"/>
+    </component>
+    <component id="n8_x82h" name="f4" src="x82hb4" fileName="comp/ToggleSelect1.xml" xy="561,301" size="301,38">
+      <Button title="4番封顶" controller="max_fan" page="1"/>
+    </component>
+    <component id="n9_x82h" name="f5" src="x82hb4" fileName="comp/ToggleSelect1.xml" xy="826,301" size="301,38">
+      <Button title="5番封顶" controller="max_fan" page="2"/>
+    </component>
+    <component id="n11_x82h" name="fan" src="x82hb4" fileName="comp/ToggleSelect1.xml" xy="320,378" size="180,38">
+      <Button checked="true" title="自摸加番" controller="zimo" page="0"/>
+    </component>
+    <component id="n12_x82h" name="di" src="x82hb4" fileName="comp/ToggleSelect1.xml" xy="561,377" size="301,38">
+      <Button title="自摸加底" controller="zimo" page="1"/>
+    </component>
+    <component id="n13_x82h" name="yaojiu" src="x82hb5" fileName="comp/ToggleSelectt2.xml" xy="320,461" size="186,38">
+      <Button title="门清中张"/>
+    </component>
+    <component id="n14_x82h" name="menqing" src="x82hb5" fileName="comp/ToggleSelectt2.xml" xy="561,470" size="190,38">
+      <Button title="门清中张"/>
+    </component>
+    <component id="n15_x82h" name="pengpeng" src="x82hb5" fileName="comp/ToggleSelectt2.xml" xy="826,468" size="217,38">
+      <Button title="碰碰胡两番"/>
+    </component>
+    <component id="n16_x82h" name="jiaxin" src="x82hb5" fileName="comp/ToggleSelectt2.xml" xy="320,535" size="148,38">
+      <Button title="夹心五"/>
+    </component>
+    <component id="n17_x82h" name="jiangdui" src="x82hb5" fileName="comp/ToggleSelectt2.xml" xy="561,529" size="148,38">
+      <Button title="将对"/>
+    </component>
+    <component id="n18_x82h" name="pinghu" src="x82hb5" fileName="comp/ToggleSelectt2.xml" xy="826,539" size="221,38">
+      <Button title="点炮可平胡"/>
+    </component>
+  </displayList>
+</component>
