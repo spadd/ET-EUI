@@ -1,6 +1,6 @@
 {
   "scaleMode": "ScaleWithScreenSize",
-  "screenMathMode": "MatchHeight",
+  "screenMathMode": "MatchWidthOrHeight",
   "designResolutionX": 1280,
   "designResolutionY": 720,
   "devices": [],

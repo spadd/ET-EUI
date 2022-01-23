@@ -678,6 +678,9 @@
      <Reference Include="Sirenix.Utilities.Editor">
      <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="GameFramework">
+     <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Packages/GameFramework/Libraries/GameFramework.dll</HintPath>
+     </Reference>
      <Reference Include="mscorlib">
      <HintPath>D:/Soft/Unity/2020.3.18f1c1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
      </Reference>

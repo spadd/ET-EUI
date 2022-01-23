@@ -12,5 +12,6 @@
     </component>
     <text id="n4_baih" name="tip" xy="100,508" size="1080,100" fontSize="40" color="#ff0000" align="center" autoSize="none" text=""/>
     <text id="n9_eu5b" name="version" xy="0,660" size="1023,60" fontSize="40" color="#ffff00" autoSize="none" text=""/>
+    <image id="n11_icd5" name="n11" src="icd57" fileName="res/favicon.png" xy="622,431"/>
   </displayList>
 </component>

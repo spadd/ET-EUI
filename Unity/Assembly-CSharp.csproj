@@ -41,6 +41,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <None Include="Assets\StreamingAssets\Version.txt" />
      <None Include="Assets\link.xml" />
      <Reference Include="UnityEngine">
      <HintPath>D:/Soft/Unity/2020.3.18f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

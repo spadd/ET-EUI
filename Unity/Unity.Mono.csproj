@@ -513,6 +513,16 @@
      <Compile Include="Assets\Mono\ILRuntime\Generate\System_Char_Binding.cs" />
      <Compile Include="Assets\Mono\ILRuntime\Generate\System_Collections_Generic_HashSet_1_AService_Binding_Enumerator_Bind.cs" />
      <Compile Include="Assets\Mono\Define.cs" />
+     <Compile Include="Assets\Mono\ILRuntime\Generate\System_Func_1_ETTask_Binding.cs" />
+     <Compile Include="Assets\Mono\ILRuntime\Generate\FairyGUI_GObject_Binding.cs" />
+     <Compile Include="Assets\Mono\ILRuntime\Generate\FairyGUI_UIPackage_Binding.cs" />
+     <Compile Include="Assets\Mono\ILRuntime\Generate\FairyGUI_GComponent_Binding.cs" />
+     <Compile Include="Assets\Mono\ILRuntime\Generate\FairyGUI_EventListener_Binding.cs" />
+     <Compile Include="Assets\Mono\ILRuntime\Generate\FairyGUI_GRoot_Binding.cs" />
+     <Compile Include="Assets\Mono\ILRuntime\Generate\ET_ETAsyncTaskMethodBuilder_1_GObject_Binding.cs" />
+     <Compile Include="Assets\Mono\ILRuntime\Generate\ET_ETTask_1_GObject_Binding.cs" />
+     <Compile Include="Assets\Mono\ILRuntime\Generate\System_Collections_Generic_Dictionary_2_String_UIPackage_Binding.cs" />
+     <Compile Include="Assets\Mono\MonoBehaviour\AssetsBundle\VersionConfig.cs" />
      <None Include="Assets\Mono\FairyGUI\Resources\Shaders\FairyGUI-Text.shader" />
      <None Include="Assets\Mono\FairyGUI\Resources\Shaders\FairyGUI-Image.shader" />
      <None Include="Assets\Mono\FairyGUI\Resources\Shaders\AddOn\FairyGUI-BlurFilter.shader" />
@@ -771,6 +781,9 @@
      </Reference>
      <Reference Include="Sirenix.Utilities.Editor">
      <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="GameFramework">
+     <HintPath>D:/workpaces/Unity/Chen-EUI/Unity/Packages/GameFramework/Libraries/GameFramework.dll</HintPath>
      </Reference>
      <Reference Include="mscorlib">
      <HintPath>D:/Soft/Unity/2020.3.18f1c1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

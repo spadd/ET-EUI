@@ -25,6 +25,7 @@ namespace ET
 
         public void AddPackage(string type)
         {
+            type = type.ToLower();
             if (packages.ContainsKey(type))
             {
                 Log.Debug($"{type}包已经加载");
@@ -56,6 +57,7 @@ namespace ET
 
         public async ETTask AddPackageAsync(string type)
         {
+            type = type.ToLower();
             if (loadingPkg.IndexOf(type) != -1 || packages.ContainsKey(type))
             {
                 Log.Debug($"{type}包已经加载");
@@ -90,6 +92,7 @@ namespace ET
 
         public void RemovePackage(string type)
         {
+            type = type.ToLower();
             if (!packages.ContainsKey(type))
             {
                 Log.Debug($"{type}包已经卸载");
@@ -122,6 +125,7 @@ namespace ET
         
         public async ETTask RemovePackageAsync(string type)
         {
+            type = type.ToLower();
             if (!packages.ContainsKey(type))
             {
                 Log.Debug($"{type}包已经卸载");
