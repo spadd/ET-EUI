@@ -1,19 +1,5 @@
 {
   "dependencies": {
-    "com.jiangyin.gameframework": {
-      "version": "file:GameFramework",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.unity.modules.androidjni": "1.0.0",
-        "com.unity.modules.animation": "1.0.0",
-        "com.unity.modules.assetbundle": "1.0.0",
-        "com.unity.modules.audio": "1.0.0",
-        "com.unity.modules.imgui": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0",
-        "com.unity.modules.unitywebrequest": "1.0.0"
-      }
-    },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
       "depth": 1,

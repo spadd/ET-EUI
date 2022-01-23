@@ -1,6 +1,5 @@
 {
   "dependencies": {
-	"com.jiangyin.gameframework": "file:/./Packages/com.jiangyin.gameframework",
     "com.unity.ide.rider": "3.0.7",
     "com.unity.ide.visualstudio": "2.0.11",
     "com.unity.textmeshpro": "3.0.6",

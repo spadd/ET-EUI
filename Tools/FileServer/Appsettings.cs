@@ -2,7 +2,7 @@
 {
     public class Appsettings
     {
-        public string DirectoryPath;
+        public string DirectoryPath = string.Empty;
 
         public int Port;
     }

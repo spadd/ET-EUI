@@ -12,7 +12,7 @@ namespace ETFileServer
             services.AddDirectoryBrowser();  //开启目录浏览
         }
        
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment()) app.UseDeveloperExceptionPage();
             
