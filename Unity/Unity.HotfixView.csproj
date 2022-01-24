@@ -619,6 +619,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Codes\HotfixView\AutoFGUICode" />
     <Folder Include="Codes\HotfixView\Demo\FGUI\Test" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

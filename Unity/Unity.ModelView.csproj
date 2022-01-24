@@ -600,6 +600,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Codes\ModelView\AutoFGUICode" />
     <Folder Include="Codes\ModelView\Demo\FGUI\Test" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
