@@ -886,7 +886,7 @@ namespace FairyGUI
             cnt = buffer.ReadShort();
             for (int i = 0; i < cnt; i++)
             {
-                int nextPos = buffer.ReadShort();
+                int nextPos = buffer.ReadUshort();
                 nextPos += buffer.position;
 
                 string itemId = buffer.ReadS();
@@ -1438,7 +1438,7 @@ namespace FairyGUI
 
             for (int i = 0; i < frameCount; i++)
             {
-                int nextPos = buffer.ReadShort();
+                int nextPos = buffer.ReadUshort();
                 nextPos += buffer.position;
 
                 frame = new MovieClip.Frame();
@@ -1499,7 +1499,7 @@ namespace FairyGUI
             int cnt = buffer.ReadInt();
             for (int i = 0; i < cnt; i++)
             {
-                int nextPos = buffer.ReadShort();
+                int nextPos = buffer.ReadUshort();
                 nextPos += buffer.position;
 
                 bg = new BitmapFont.BMGlyph();
@@ -1586,8 +1586,8 @@ namespace FairyGUI
                     }
 
                     bg.lineHeight = bgY < 0 ? bgHeight : (bgY + bgHeight);
-                    if (bg.lineHeight < font.size)
-                        bg.lineHeight = font.size;
+                    if (bg.lineHeight < fontSize)
+                        bg.lineHeight = fontSize;
                 }
 
                 buffer.position = nextPos;
