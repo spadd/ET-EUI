@@ -1,0 +1,1 @@
+java -jar bundletool-all-1.8.2.jar install-apks --apks=./release-aab-1015068.apks

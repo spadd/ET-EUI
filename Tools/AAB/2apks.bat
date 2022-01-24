@@ -1,0 +1,1 @@
+java -jar bundletool-all-1.8.2.jar build-apks --bundle=./release-aab-1015068.aab --output=./release-aab-1015068.apks --overwrite --ks=./test.jks --ks-pass=pass:test1234 --ks-key-alias=test --key-pass=pass:test1234 --device-spec=./device-spec.json
