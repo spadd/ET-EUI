@@ -41,8 +41,10 @@ namespace ET
                 session.Disconnect().Coroutine();
                 return;
             }
-            
-            if (!Regex.IsMatch(request.PassWord.Trim(),@"^(?=.*[0-9].*)(?=.*[A-Z].*)(?=.*[a-z].*).{6,15}$"))
+
+            // if (!Regex.IsMatch(request.PassWord.Trim(),@"^(?=.*[0-9].*)(?=.*[A-Z].*)(?=.*[a-z].*).{6,15}$"))
+            // 密碼修改程 md5
+            if (!Regex.IsMatch(request.PassWord.Trim(),@"^[A-Za-z0-9]+$"))
             {
                 response.Error = ErrorCode.ERR_PasswordFormError;
                 reply();

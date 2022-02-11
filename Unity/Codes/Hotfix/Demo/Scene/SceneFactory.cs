@@ -12,6 +12,8 @@ namespace ET
             zoneScene.AddComponent<PlayerComponent>();
             // 账号
             zoneScene.AddComponent<AccountInfoComponent>();
+            // 游戏区服信息组件
+            zoneScene.AddComponent<ServerInfosComponent>();
             
             Game.EventSystem.Publish(new EventType.AfterCreateZoneScene() {ZoneScene = zoneScene});
             return zoneScene;

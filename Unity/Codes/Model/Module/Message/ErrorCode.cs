@@ -22,6 +22,10 @@ namespace ET
         public const int ERR_AccountInBlackListError = 200006; // 账号处于黑名单
         public const int ERR_LoginPasswordError = 200007; // 账号密码错误
         public const int RequestRepeatedly = 200008; // 请求重复
+        public const int ERR_TokenError = 200009; // 令牌Token错误
+        
+        public const int ERR_RoleNameIsNull = 200010; // 游戏角色名称为空
+        public const int ERR_RoleNameSame = 200011; // 游戏角色名称重复
 
     }
 }

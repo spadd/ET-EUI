@@ -35,6 +35,7 @@ namespace ET
         {
             string account = self.View.EFUI_InputA_account.EGTextInput_input.text;
             string password = self.View.EFUI_InputP_password.EGTextInput_input.text;
+
             Log.Info($"OnLoginClick account={account} password={password}");
 
             try
@@ -52,6 +53,9 @@ namespace ET
                 }
                 
                 // 显示登录之后的页面逻辑
+                FGUIComponent fguiComponent = self.DomainScene().GetComponent<FGUIComponent>();
+                fguiComponent.CloseWindow(FUI_TestHUI.UIResName);
+                await fguiComponent.ShowWindowAsync(FUI_TestHallUI.UIPackageName,FUI_TestHallUI.UIResName);
             }
             catch (Exception e)
             {

@@ -12,6 +12,10 @@ namespace ET
             try
             {
                 accountSession = zoneScene.GetComponent<NetKcpComponent>().Create(NetworkHelper.ToIPEndPoint(address));
+                
+                // md5进行加密
+                password = MD5Helper.StringMD5(password);
+                
                 a2CLoginAccount = (A2C_LoginAccount) await accountSession.Call(new C2A_LoginAccount(){AccountName = account,PassWord = password});
             }
             catch (Exception e)
@@ -29,12 +33,77 @@ namespace ET
             }
 
             zoneScene.AddComponent<SessionComponent>().Session = accountSession;
+            // 增加心跳检测
+            zoneScene.GetComponent<SessionComponent>().Session.AddComponent<PingComponent>();
 
             zoneScene.GetComponent<AccountInfoComponent>().Token = a2CLoginAccount.Token;
             zoneScene.GetComponent<AccountInfoComponent>().AccountId = a2CLoginAccount.AccountId;
             
             return ErrorCode.ERR_Success;
         }
+
+        public static async ETTask<int> GetServerInfo(Scene zoneScene)
+        {
+            A2C_GetServerInfo a2CGetServerInfo = null;
+            try
+            {
+                a2CGetServerInfo = (A2C_GetServerInfo) await zoneScene.GetComponent<SessionComponent>().Session.Call(new C2A_GetServerInfo()
+                {
+                    AccountId = zoneScene.GetComponent<AccountInfoComponent>().AccountId,
+                    Token = zoneScene.GetComponent<AccountInfoComponent>().Token,
+                });
+            }
+            catch (Exception e)
+            {
+                Log.Error(e.ToString());
+                return ErrorCode.ERR_NetWorkError;
+            }
+
+            if (a2CGetServerInfo.Error != ErrorCode.ERR_Success)
+            {
+                return a2CGetServerInfo.Error;
+            }
+
+            // 添加区服信息
+            foreach (var serverInfoProto in a2CGetServerInfo.ServerInfoList)
+            {
+                ServerInfo serverInfo = zoneScene.GetComponent<ServerInfosComponent>().AddChild<ServerInfo>();
+                serverInfo.FromMessage(serverInfoProto);
+                zoneScene.GetComponent<ServerInfosComponent>().Add(serverInfo);
+            }
+            
+            return ErrorCode.ERR_Success;
+        }
+
+        public static async ETTask<int> CreateRole(Scene zoneScene,string name)
+        {
+            A2C_CreateRole a2CCreateRole = null;
+
+            try
+            {
+                a2CCreateRole = (A2C_CreateRole)await zoneScene.GetComponent<SessionComponent>().Session.Call(new C2A_CreateRole()
+                {
+                    AccountId = zoneScene.GetComponent<AccountInfoComponent>().AccountId,
+                    Token = zoneScene.GetComponent<AccountInfoComponent>().Token,
+                    Name = name,
+                    ServerId = 1,
+                });
+            }
+            catch (Exception e)
+            {
+                Log.Error(e.ToString());
+                return ErrorCode.ERR_NetWorkError;
+            }
+
+            if (a2CCreateRole.Error != ErrorCode.ERR_Success)
+            {
+                Log.Error(a2CCreateRole.Error.ToString());
+                return a2CCreateRole.Error;
+            }
+            return ErrorCode.ERR_Success;
+        }
+
+
         // public static async ETTask Login(Scene zoneScene, string address, string account, string password)
         // {
         //     try
