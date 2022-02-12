@@ -26,6 +26,7 @@ namespace ET
         
         public const int ERR_RoleNameIsNull = 200010; // 游戏角色名称为空
         public const int ERR_RoleNameSame = 200011; // 游戏角色名称重复
+        public const int ERR_RoleNotExist = 200012; // 游戏角色不存在
 
     }
 }

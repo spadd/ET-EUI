@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720" bgColor="#000000">
+  <displayList>
+    <graph id="n14_o5nx" name="n14" xy="0,0" size="1280,720" type="rect" fillColor="#ff6699ff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n1_baih" name="title" xy="100,0" size="1080,100" fontSize="60" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="角色列表"/>
+    <list id="n12_o5nx" name="RoleList" xy="99,118" size="1098,378" layout="row" overflow="scroll" scroll="horizontal" lineGap="20" colGap="30" defaultItem="ui://5jb64ecmo5nxb" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n17_o5nx" name="InputRole" src="o5nxc" fileName="comp/InputR.xml" xy="240,509"/>
+    <component id="n13_o5nx" name="BtnDelRole" src="baih3" fileName="comp/ButtonTitle.xml" xy="59,620" size="320,80">
+      <Button title="删除角色" titleColor="#ff0000"/>
+    </component>
+    <component id="n15_o5nx" name="BtnCreateRole" src="baih3" fileName="comp/ButtonTitle.xml" xy="505,616" size="320,80">
+      <Button title="创建角色" titleColor="#00ff00"/>
+    </component>
+    <component id="n16_o5nx" name="BtnGoGame" src="baih3" fileName="comp/ButtonTitle.xml" xy="899,614" size="320,80">
+      <Button title="开始游戏" titleColor="#000000"/>
+    </component>
+  </displayList>
+</component>

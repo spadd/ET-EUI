@@ -60,6 +60,7 @@ namespace ET
                     newRoleInfo.State = (int)RoleInfoState.Normal;
                     newRoleInfo.ServerId = request.ServerId;
                     newRoleInfo.CreateTime = TimeHelper.ServerNow();
+                    newRoleInfo.AccountId = request.AccountId;
                     newRoleInfo.LastLoginTime = 0;
 
                     await DBManagerComponent.Instance.GetZoneDB(session.DomainZone()).Save<RoleInfo>(newRoleInfo);

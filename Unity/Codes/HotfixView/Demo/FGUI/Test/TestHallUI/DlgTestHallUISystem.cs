@@ -1,5 +1,13 @@
 ﻿namespace ET
 {
+    [ObjectSystem]
+    public class DlgTestHallUILoadSystem: LoadSystem<DlgTestHallUI>
+    {
+        public override void Load(DlgTestHallUI self)
+        {
+            self.RegisterUIEvent();
+        }
+    }
     public static class DlgTestHallUISystem
     {
         public static void RegisterUIEvent(this DlgTestHallUI self)

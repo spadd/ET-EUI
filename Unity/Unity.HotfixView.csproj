@@ -620,7 +620,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Codes\HotfixView\AutoFGUICode" />
-    <Folder Include="Codes\HotfixView\Demo\FGUI\Test" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

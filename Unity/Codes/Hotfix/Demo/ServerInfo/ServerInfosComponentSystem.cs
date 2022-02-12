@@ -9,6 +9,7 @@
                 serverInfo?.Dispose();
             }
             self.ServerInfoList.Clear();
+            self.CurrentServerId = 0;
         }
     }
 

@@ -10,7 +10,7 @@ namespace ET
 		public override void Awake(FUI_TestHUI self)
 		{
 			self.GObject = self.GetParent<FGUIBaseWindow>().UIPrefabGameObject;
-			self.uiTransform = self.GObject.asCom;
+			self.uiTransform = (GComponent)self.GObject;
 		}
 	}
 
@@ -20,7 +20,7 @@ namespace ET
         public override void Awake(FUI_TestHUI self,GObject transform)
         {
             self.GObject = transform;
-            self.uiTransform = transform.asCom;
+            self.uiTransform = (GComponent)transform;
         }
     }
 

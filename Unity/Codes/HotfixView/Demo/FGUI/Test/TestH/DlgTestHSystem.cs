@@ -15,6 +15,8 @@ namespace ET
     {
         public static void RegisterUIEvent(this DlgTestH self)
         {
+            self.View.EFUI_InputA_account.EGTextInput_input.text = "Uw123456";
+            self.View.EFUI_InputP_password.EGTextInput_input.text = "Uw123456";
             self.View.EGButton_login.AddListenerAsync(() =>
             {
                 return self.OnLoginClick();
@@ -52,10 +54,18 @@ namespace ET
                     return;
                 }
                 
+                // 获取区服表
+                errCode = await LoginHelper.GetServerInfo(self.ZoneScene());
+                if (errCode != ErrorCode.ERR_Success)
+                {
+                    Log.Error(errCode.ToString());
+                    return;
+                }
+                
                 // 显示登录之后的页面逻辑
                 FGUIComponent fguiComponent = self.DomainScene().GetComponent<FGUIComponent>();
                 fguiComponent.CloseWindow(FUI_TestHUI.UIResName);
-                await fguiComponent.ShowWindowAsync(FUI_TestHallUI.UIPackageName,FUI_TestHallUI.UIResName);
+                await fguiComponent.ShowWindowAsync(FUI_TestServerListUI.UIPackageName,FUI_TestServerListUI.UIResName);
             }
             catch (Exception e)
             {

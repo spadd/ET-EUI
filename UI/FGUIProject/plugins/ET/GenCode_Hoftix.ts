@@ -192,7 +192,7 @@ namespace ET
 		public override void Awake(${genETCompName} self)
 		{
 			self.GObject = self.GetParent<FGUIBaseWindow>().UIPrefabGameObject;
-			self.uiTransform = self.GObject.asCom;
+			self.uiTransform = (${classInfo.superClassName})self.GObject;
 		}
 	}
 
@@ -202,7 +202,7 @@ namespace ET
         public override void Awake(${genETCompName} self,GObject transform)
         {
             self.GObject = transform;
-            self.uiTransform = transform.asCom;
+            self.uiTransform = (${classInfo.superClassName})transform;
         }
     }
 

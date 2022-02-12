@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,80">
+  <displayList>
+    <graph id="n2_baih" name="n2" xy="0,0" size="800,80" type="rect" lineSize="2" lineColor="#ffffff00" fillColor="#ff663333"/>
+    <text id="n0_baih" name="title" xy="56,5" size="150,70" fontSize="50" color="#ffffff" autoSize="none" text="角色："/>
+    <text id="n1_baih" name="input" xy="239,5" size="500,70" fontSize="50" color="#66ff99" vAlign="middle" autoSize="none" singleLine="true" text="" input="true" prompt="在此输入角色名称" maxLength="8"/>
+  </displayList>
+</component>

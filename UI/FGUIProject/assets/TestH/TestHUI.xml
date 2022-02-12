@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="1280,720" bgColorEnabled="true" bgColor="#000000">
+<component size="1280,720" bgColor="#000000">
   <displayList>
+    <graph id="n12_o5nx" name="n12" xy="0,0" size="1280,720" type="rect" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
     <text id="n1_baih" name="title" xy="100,0" size="1080,100" fontSize="60" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="热更登录"/>
     <component id="n5_baih" name="account" src="baih2" fileName="comp/InputA.xml" xy="240,148"/>
     <component id="n6_baih" name="password" src="eu5b5" fileName="comp/InputP.xml" xy="240,259"/>

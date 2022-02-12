@@ -57,7 +57,7 @@ namespace ET
                 }
                 if( this.m_title == null )
                 {
-                    this.m_title = (GTextField)uiTransform.GetChildAt(0);
+                    this.m_title = (GTextField)uiTransform.GetChildAt(1);
                 }
                 return this.m_title;
             }
@@ -73,7 +73,7 @@ namespace ET
                 }
                 if( this.m_account == null )
                 {
-                    this.m_account = this.AddChild<FUI_InputA, GObject>(uiTransform.GetChildAt(1));
+                    this.m_account = this.AddChild<FUI_InputA, GObject>(uiTransform.GetChildAt(2));
                 }
                 return this.m_account;
             }
@@ -89,7 +89,7 @@ namespace ET
                 }
                 if( this.m_password == null )
                 {
-                    this.m_password = this.AddChild<FUI_InputP, GObject>(uiTransform.GetChildAt(2));
+                    this.m_password = this.AddChild<FUI_InputP, GObject>(uiTransform.GetChildAt(3));
                 }
                 return this.m_password;
             }
@@ -105,7 +105,7 @@ namespace ET
                 }
                 if( this.m_register == null )
                 {
-                    this.m_register = (GButton)uiTransform.GetChildAt(3);
+                    this.m_register = (GButton)uiTransform.GetChildAt(4);
                 }
                 return this.m_register;
             }
@@ -121,7 +121,7 @@ namespace ET
                 }
                 if( this.m_login == null )
                 {
-                    this.m_login = (GButton)uiTransform.GetChildAt(4);
+                    this.m_login = (GButton)uiTransform.GetChildAt(5);
                 }
                 return this.m_login;
             }
@@ -137,7 +137,7 @@ namespace ET
                 }
                 if( this.m_tip == null )
                 {
-                    this.m_tip = (GTextField)uiTransform.GetChildAt(5);
+                    this.m_tip = (GTextField)uiTransform.GetChildAt(6);
                 }
                 return this.m_tip;
             }
@@ -153,7 +153,7 @@ namespace ET
                 }
                 if( this.m_version == null )
                 {
-                    this.m_version = (GTextField)uiTransform.GetChildAt(6);
+                    this.m_version = (GTextField)uiTransform.GetChildAt(7);
                 }
                 return this.m_version;
             }

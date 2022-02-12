@@ -55,7 +55,7 @@ namespace ET
                 }
                 if( this.m_title == null )
                 {
-                    this.m_title = (GTextField)uiTransform.GetChildAt(0);
+                    this.m_title = (GTextField)uiTransform.GetChildAt(1);
                 }
                 return this.m_title;
             }
@@ -71,7 +71,7 @@ namespace ET
                 }
                 if( this.m_tip == null )
                 {
-                    this.m_tip = (GTextField)uiTransform.GetChildAt(1);
+                    this.m_tip = (GTextField)uiTransform.GetChildAt(2);
                 }
                 return this.m_tip;
             }
@@ -87,7 +87,7 @@ namespace ET
                 }
                 if( this.m_UserInfo == null )
                 {
-                    this.m_UserInfo = (GTextField)uiTransform.GetChildAt(2);
+                    this.m_UserInfo = (GTextField)uiTransform.GetChildAt(3);
                 }
                 return this.m_UserInfo;
             }
@@ -103,7 +103,7 @@ namespace ET
                 }
                 if( this.m_EnterMj == null )
                 {
-                    this.m_EnterMj = (GButton)uiTransform.GetChildAt(3);
+                    this.m_EnterMj = (GButton)uiTransform.GetChildAt(4);
                 }
                 return this.m_EnterMj;
             }
@@ -119,7 +119,7 @@ namespace ET
                 }
                 if( this.m_EnterMMO == null )
                 {
-                    this.m_EnterMMO = (GButton)uiTransform.GetChildAt(4);
+                    this.m_EnterMMO = (GButton)uiTransform.GetChildAt(5);
                 }
                 return this.m_EnterMMO;
             }

@@ -7,6 +7,11 @@
     <component id="kvck4" name="TestHallUI.xml" path="/" exported="true"/>
     <component id="eu5b5" name="InputP.xml" path="/comp/"/>
     <image id="icd57" name="favicon.png" path="/res/"/>
+    <component id="o5nx8" name="TestServerListUI.xml" path="/" exported="true"/>
+    <component id="o5nx9" name="ServerItem.xml" path="/comp/"/>
+    <component id="o5nxa" name="TestRoleUI.xml" path="/" exported="true"/>
+    <component id="o5nxb" name="Roletem.xml" path="/comp/"/>
+    <component id="o5nxc" name="InputR.xml" path="/comp/"/>
   </resources>
   <publish name="" path="D:\workpaces\Unity\Chen-EUI\Unity\Assets\Bundles\FGUI" packageCount="2" codePath="D:\workpaces\Unity\Chen-EUI\Unity\Codes"/>
 </packageDescription>
