@@ -2,7 +2,6 @@
 
 namespace ET
 {
-    [MessageHandler]
     public class C2A_GetRolesHandler:AMRpcHandler<C2A_GetRoles,A2C_GetRoles>
     {
         protected override async ETTask Run(Session session, C2A_GetRoles request, A2C_GetRoles response, Action reply)

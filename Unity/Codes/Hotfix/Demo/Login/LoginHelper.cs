@@ -208,9 +208,64 @@ namespace ET
             // 保存 令牌 和 地址
             zoneScene.GetComponent<AccountInfoComponent>().RealmKey = a2CGetRealmKey.RealmKey;
             zoneScene.GetComponent<AccountInfoComponent>().RealmAddress = a2CGetRealmKey.RealmAddress;
+            // 断开链接
+            zoneScene.GetComponent<SessionComponent>().Session.Dispose();
+
+            return ErrorCode.ERR_Success;
+        }
+
+        public static async ETTask<int> EnterGame(Scene zoneScene)
+        {
+            string realmAddress = zoneScene.GetComponent<AccountInfoComponent>().RealmAddress;
+            R2C_LoginRealm r2CLogin = null;
+
+            Session session = zoneScene.GetComponent<NetKcpComponent>().Create(NetworkHelper.ToIPEndPoint(realmAddress));
+            try 
+            {
+                r2CLogin = (R2C_LoginRealm)await session.Call(new C2R_LoginRealm() 
+                {
+                    AccountId = zoneScene.GetComponent<AccountInfoComponent>().AccountId,
+                    RealmTokenKey = zoneScene.GetComponent<AccountInfoComponent>().RealmKey,
+                });
+            } 
+            catch (Exception e) 
+            {
+                Log.Error(e.ToString());
+                session?.Dispose();
+                return ErrorCode.ERR_NetWorkError;
+            }
+
+            session?.Dispose();
+            if (r2CLogin.Error != ErrorCode.ERR_Success)
+            {
+                return r2CLogin.Error;
+            }
+            
+            Log.Warning($"GateAddress:{r2CLogin.GateAddress}");
+            Session gateSession = zoneScene.GetComponent<NetKcpComponent>().Create(NetworkHelper.ToIPEndPoint(r2CLogin.GateAddress));
+            gateSession.AddComponent<PingComponent>();
+            zoneScene.GetComponent<SessionComponent>().Session = gateSession;
+            // 开始连接Gate
+            long currentRoleId = zoneScene.GetComponent<RoleInfosComponent>().CurrentRoleId;
+            G2C_LoginGate g2CLoginGate = null;
+            try
+            {
+                g2CLoginGate = (G2C_LoginGate)await session.Call(new C2G_LoginGate() 
+                {
+                    // todo 待继续
+                });
+            }
+            catch (Exception e)
+            {
+                Log.Error(e.ToString());
+                session?.Dispose();
+                return ErrorCode.ERR_NetWorkError;
+            }
+            
             
             return ErrorCode.ERR_Success;
         }
+        
 
 
         // public static async ETTask Login(Scene zoneScene, string address, string account, string password)
@@ -236,7 +291,7 @@ namespace ET
         //         Session gateSession = zoneScene.GetComponent<NetKcpComponent>().Create(NetworkHelper.ToIPEndPoint(r2CLogin.Address));
         //         gateSession.AddComponent<PingComponent>();
         //         zoneScene.AddComponent<SessionComponent>().Session = gateSession;
-				    //
+        //
         //         G2C_LoginGate g2CLoginGate = (G2C_LoginGate)await gateSession.Call(
         //             new C2G_LoginGate() { Key = r2CLogin.Key, GateId = r2CLogin.GateId});
         //

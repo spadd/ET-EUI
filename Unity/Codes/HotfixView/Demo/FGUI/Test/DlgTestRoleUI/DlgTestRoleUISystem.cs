@@ -140,14 +140,23 @@ namespace ET
 
             try
             {
+                // 取 负载均衡服务器的令牌
                 int errCode = await LoginHelper.GetRealmKey(self.ZoneScene());
                 if (errCode != ErrorCode.ERR_Success)
                 {
                     Log.Error(errCode.ToString());
                     return;
                 }
-                
-                
+
+                // 进入游戏
+                errCode = await LoginHelper.EnterGame(self.ZoneScene());
+                if (errCode != ErrorCode.ERR_Success)
+                {
+                    Log.Error(errCode.ToString());
+                    return;
+                }
+
+
             }
             catch (Exception e)
             {
