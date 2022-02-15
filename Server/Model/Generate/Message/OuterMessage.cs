@@ -842,10 +842,7 @@ namespace ET
 		public string Message { get; set; }
 
 		[ProtoMember(1)]
-		public string GateSessionKey { get; set; }
-
-		[ProtoMember(2)]
-		public string GateAddress { get; set; }
+		public long PlayerId { get; set; }
 
 	}
 

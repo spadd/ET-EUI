@@ -397,6 +397,5 @@ message G2C_LoginGameGate // IResponse
 	int32 RpcId = 90;
 	int32 Error = 91;
 	string Message = 92;
-	string GateSessionKey = 1;
-	string GateAddress = 2;
+	int64 PlayerId = 1;
 }

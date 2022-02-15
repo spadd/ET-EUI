@@ -245,14 +245,18 @@ namespace ET
             Session gateSession = zoneScene.GetComponent<NetKcpComponent>().Create(NetworkHelper.ToIPEndPoint(r2CLogin.GateAddress));
             gateSession.AddComponent<PingComponent>();
             zoneScene.GetComponent<SessionComponent>().Session = gateSession;
+            
             // 开始连接Gate
             long currentRoleId = zoneScene.GetComponent<RoleInfosComponent>().CurrentRoleId;
-            G2C_LoginGate g2CLoginGate = null;
+            G2C_LoginGameGate g2CLoginGate = null;
             try
             {
-                g2CLoginGate = (G2C_LoginGate)await session.Call(new C2G_LoginGate() 
+                long accountId = zoneScene.GetComponent<AccountInfoComponent>().AccountId;
+                g2CLoginGate = (G2C_LoginGameGate)await gateSession.Call(new C2G_LoginGameGate() 
                 {
-                    // todo 待继续
+                    Key = r2CLogin.GateSessionKey,
+                    Account = accountId,
+                    RoleId = currentRoleId
                 });
             }
             catch (Exception e)
@@ -262,6 +266,12 @@ namespace ET
                 return ErrorCode.ERR_NetWorkError;
             }
             
+            if (g2CLoginGate.Error != ErrorCode.ERR_Success)
+            {
+                zoneScene.GetComponent<SessionComponent>().Session.Dispose();
+                return g2CLoginGate.Error;
+            }
+            Log.Debug("登录Gate成功！");
             
             return ErrorCode.ERR_Success;
         }
