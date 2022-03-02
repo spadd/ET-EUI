@@ -60,7 +60,16 @@ namespace ET
                         return;
                     }
 
-                    Player player = scene.GetComponent<PlayerComponent>().Get(request.RoleId);
+                    SessionStateComponent SessionStateComponent = session.GetComponent<SessionStateComponent>();
+                    if (SessionStateComponent == null)
+                    {
+                        SessionStateComponent = session.AddComponent<SessionStateComponent>();
+                    }
+
+                    SessionStateComponent.State = SessionState.Normal;
+
+                    // 角色有多个，账号只有一个
+                    Player player = scene.GetComponent<PlayerComponent>().Get(request.Account);
                     if (player == null)
                     {
                         // 添加一个新的GateUnit
@@ -77,6 +86,7 @@ namespace ET
 
                     session.AddComponent<SessionPlayerComponent>().PlayerId = player.Id;
                     session.GetComponent<SessionPlayerComponent>().PlayerInstanceId = player.InstanceId;
+                    session.GetComponent<SessionPlayerComponent>().AccountId = request.Account;
                     // 通过Player的SessionInstanceId也可以反过来拿到对应的Session
                     player.SessionInstanceId = session.InstanceId;
 

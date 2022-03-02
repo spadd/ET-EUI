@@ -29,6 +29,14 @@ namespace ET
         public const int ERR_RoleNotExist = 200012; // 游戏角色不存在
         public const int Err_RequestSceneTypeError = 200013; // 游戏角色不存在
         public const int Err_ConnectGateKeyError = 200014; // Gate网关key错误
+        public const int Err_OtherAccountLogin = 200015; // Gate网关 被顶号
+        public const int Err_SessionPlayError = 200016; // 
+        public const int Err_NonePlayerError = 200017; // 
+        public const int Err_PlayerSessionError = 200018; // 
+        public const int Err_SessionStateError = 200019; // 
+        public const int ERR_ReEnterGameError = 200020; // 
+        public const int ERR_EnterGameError = 200021; // 
+        public const int ERR_ReEnterGameError2 = 200022; // 
 
     }
 }

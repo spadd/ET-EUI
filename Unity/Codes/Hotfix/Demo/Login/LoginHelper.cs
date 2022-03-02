@@ -217,6 +217,7 @@ namespace ET
         public static async ETTask<int> EnterGame(Scene zoneScene)
         {
             string realmAddress = zoneScene.GetComponent<AccountInfoComponent>().RealmAddress;
+            // 1.连接Realm，获取分配gate
             R2C_LoginRealm r2CLogin = null;
 
             Session session = zoneScene.GetComponent<NetKcpComponent>().Create(NetworkHelper.ToIPEndPoint(realmAddress));
@@ -246,7 +247,7 @@ namespace ET
             gateSession.AddComponent<PingComponent>();
             zoneScene.GetComponent<SessionComponent>().Session = gateSession;
             
-            // 开始连接Gate
+            // 2.开始连接Gate
             long currentRoleId = zoneScene.GetComponent<RoleInfosComponent>().CurrentRoleId;
             G2C_LoginGameGate g2CLoginGate = null;
             try
@@ -262,7 +263,7 @@ namespace ET
             catch (Exception e)
             {
                 Log.Error(e.ToString());
-                session?.Dispose();
+                zoneScene.GetComponent<SessionComponent>().Session.Dispose();
                 return ErrorCode.ERR_NetWorkError;
             }
             
@@ -272,6 +273,27 @@ namespace ET
                 return g2CLoginGate.Error;
             }
             Log.Debug("登录Gate成功！");
+            
+            // 3.角色正式请求进入游戏逻辑
+            G2C_EnterGame g2CEnterGame = null;
+            try
+            {
+                g2CEnterGame = (G2C_EnterGame) await gateSession.Call(new C2G_EnterGame());
+            }
+            catch (Exception e)
+            {
+                Log.Error(e.ToString());
+                zoneScene.GetComponent<SessionComponent>().Session.Dispose();
+                return ErrorCode.ERR_NetWorkError;
+            }
+            
+            if (g2CEnterGame.Error != ErrorCode.ERR_Success)
+            {
+                Log.Error(g2CEnterGame.Error.ToString());
+                return g2CEnterGame.Error;
+            }
+            
+            Log.Debug("角色进入游戏成功！");
             
             return ErrorCode.ERR_Success;
         }
